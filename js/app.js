@@ -58,7 +58,7 @@ async function initFirebase() {
     if (!user) {
       store.set({ authState: 'out', user: null, profile: undefined, custom: [], customFor: null, toast: null });
       // Al cerrar sesión, la siguiente persona entra a Inicio (salvo páginas públicas).
-      if (!/^#\/(ej|catalogo)/.test(location.hash) && location.hash.length > 2) go('/');
+      if (!/^#\/(ej|catalogo|registro)/.test(location.hash) && location.hash.length > 2) go('/');
       return;
     }
     store.set({ authState: 'in', user, profile: undefined });
