@@ -1,0 +1,7421 @@
+{
+ "source": "free-exercise-db (Unlicense) — curado y traducido para PUSH HARDER",
+ "exercises": [
+  {
+   "srcId": "Barbell_Bench_Press_-_Medium_Grip",
+   "nameEs": "Press de banca plano con barra",
+   "aliases": [
+    "press plano",
+    "press de banca",
+    "bench press"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Junta y baja escápulas antes de descolgar la barra",
+    "Baja controlado a la parte media-baja del pecho",
+    "Pies firmes y glúteo pegado al banco al empujar"
+   ]
+  },
+  {
+   "srcId": "Wide-Grip_Barbell_Bench_Press",
+   "nameEs": "Press de banca con agarre abierto",
+   "aliases": [
+    "press plano abierto",
+    "press de banca agarre ancho",
+    "wide-grip bench press"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Agarra unos centímetros más abierto que tu press normal",
+    "Codos a unos 60-70° del torso, no a 90°",
+    "Baja a la mitad del pecho sin rebotar"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Bench_Press",
+   "nameEs": "Press plano con mancuernas",
+   "aliases": [
+    "press con mancuernas",
+    "press de banca con mancuernas",
+    "dumbbell bench press"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Escápulas atrás y abajo durante toda la serie",
+    "Baja hasta sentir estiramiento, codos a unos 45°",
+    "Sube acercando ligeramente las mancuernas arriba"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Bench_Press_with_Neutral_Grip",
+   "nameEs": "Press plano con mancuernas agarre neutro",
+   "aliases": [
+    "press neutro",
+    "press martillo plano",
+    "neutral grip dumbbell press"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Palmas viéndose entre sí todo el recorrido",
+    "Codos cerca del torso al bajar",
+    "Baja hasta que las mancuernas rocen el pecho"
+   ]
+  },
+  {
+   "srcId": "One_Arm_Dumbbell_Bench_Press",
+   "nameEs": "Press plano con mancuerna a una mano",
+   "aliases": [
+    "press unilateral",
+    "press a una mano",
+    "one arm dumbbell bench press"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Aprieta el abdomen para no girar el torso",
+    "Sujétate del banco con la mano libre",
+    "Baja controlado hasta la altura del pecho"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Bench_Press",
+   "nameEs": "Press plano en Smith",
+   "aliases": [
+    "press en multipower",
+    "press plano Smith",
+    "smith machine bench press"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Acomoda el banco para que la barra baje a mitad del pecho",
+    "Escápulas juntas y pies firmes en el piso",
+    "Baja controlado y empuja sin bloquear de golpe"
+   ]
+  },
+  {
+   "srcId": "Machine_Bench_Press",
+   "nameEs": "Press de pecho en máquina",
+   "aliases": [
+    "chest press",
+    "press sentado en máquina",
+    "machine bench press"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Ajusta el asiento: agarres a la altura del pecho medio",
+    "Espalda pegada al respaldo y escápulas atrás",
+    "Regresa lento sin dejar que las placas choquen"
+   ]
+  },
+  {
+   "srcId": "Leverage_Chest_Press",
+   "nameEs": "Press de pecho en máquina Hammer",
+   "aliases": [
+    "press Hammer",
+    "press de palanca",
+    "leverage chest press"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Agarres a la altura de la parte baja del pecho",
+    "Pecho arriba y escápulas retraídas al empujar",
+    "Pausa breve arriba y regresa controlado"
+   ]
+  },
+  {
+   "srcId": "Standing_Cable_Chest_Press",
+   "nameEs": "Press de pecho de pie en polea",
+   "aliases": [
+    "press en polea",
+    "press con cables de pie",
+    "standing cable chest press"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Poleas a la altura del pecho y pies escalonados",
+    "Empuja al frente sin mover el torso",
+    "Escápulas juntas al inicio de cada repetición"
+   ]
+  },
+  {
+   "srcId": "Bench_Press_-_With_Bands",
+   "nameEs": "Press de pecho acostado con ligas",
+   "aliases": [
+    "press con ligas",
+    "press de banca con liga",
+    "bench press with bands"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "ligas",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Ancla la liga bien firme bajo el banco",
+    "Muñecas rectas y codos a unos 45° del torso",
+    "Controla el regreso sin que la liga te jale"
+   ]
+  },
+  {
+   "srcId": "Pushups",
+   "nameEs": "Lagartijas",
+   "aliases": [
+    "flexiones",
+    "push ups",
+    "pushups"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Cuerpo en línea recta: abdomen y glúteo apretados",
+    "Manos un poco más abiertas que los hombros",
+    "Baja hasta casi tocar el piso con el pecho"
+   ]
+  },
+  {
+   "srcId": "Push-Up_Wide",
+   "nameEs": "Lagartijas abiertas",
+   "aliases": [
+    "lagartijas agarre abierto",
+    "flexiones abiertas",
+    "wide push-up"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "abdominals",
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Manos bastante más abiertas que los hombros",
+    "No dejes caer la cadera durante la serie",
+    "Baja el pecho al piso sintiendo el estiramiento"
+   ]
+  },
+  {
+   "srcId": "Incline_Push-Up",
+   "nameEs": "Lagartijas con manos elevadas",
+   "aliases": [
+    "lagartijas inclinadas",
+    "lagartijas en banco",
+    "incline push-up"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Apoya las manos en el borde de un banco firme",
+    "Mantén el cuerpo recto de cabeza a talones",
+    "Lleva el pecho al borde del banco y empuja"
+   ]
+  },
+  {
+   "srcId": "Suspended_Push-Up",
+   "nameEs": "Lagartijas en TRX",
+   "aliases": [
+    "lagartijas suspendidas",
+    "flexiones en TRX",
+    "suspended push-up"
+   ],
+   "pattern": "press_horizontal",
+   "region": "superior",
+   "equipment": "otro",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Ancla bien las correas y tensa todo el cuerpo",
+    "Baja hasta que los codos queden a 90°",
+    "No dejes que las correas se abran hacia los lados"
+   ]
+  },
+  {
+   "srcId": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+   "nameEs": "Press inclinado con barra",
+   "aliases": [
+    "press inclinado",
+    "press inclinado barra",
+    "incline bench press"
+   ],
+   "pattern": "press_inclinado",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Banco a 30-45° y escápulas juntas",
+    "Baja la barra a la parte alta del pecho",
+    "Empuja en línea recta sobre los hombros"
+   ]
+  },
+  {
+   "srcId": "Incline_Dumbbell_Press",
+   "nameEs": "Press inclinado con mancuernas",
+   "aliases": [
+    "press inclinado mancuernas",
+    "incline dumbbell press"
+   ],
+   "pattern": "press_inclinado",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Banco a 30-45°, no más inclinado",
+    "Baja las mancuernas a los lados del pecho alto",
+    "Sube sin chocar las mancuernas arriba"
+   ]
+  },
+  {
+   "srcId": "Hammer_Grip_Incline_DB_Bench_Press",
+   "nameEs": "Press inclinado con mancuernas agarre neutro",
+   "aliases": [
+    "press inclinado martillo",
+    "press inclinado neutro",
+    "hammer grip incline dumbbell press"
+   ],
+   "pattern": "press_inclinado",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Palmas viéndose entre sí todo el recorrido",
+    "Banco a 30-45° y escápulas retraídas",
+    "Baja controlado a los lados del pecho alto"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Incline_Bench_Press",
+   "nameEs": "Press inclinado en Smith",
+   "aliases": [
+    "press inclinado multipower",
+    "incline smith press",
+    "smith machine incline bench press"
+   ],
+   "pattern": "press_inclinado",
+   "region": "superior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Acomoda el banco para que la barra baje al pecho alto",
+    "Agarre un poco más abierto que los hombros",
+    "Baja controlado y empuja sin rebotar"
+   ]
+  },
+  {
+   "srcId": "Leverage_Incline_Chest_Press",
+   "nameEs": "Press inclinado en máquina",
+   "aliases": [
+    "press inclinado Hammer",
+    "máquina de press inclinado",
+    "leverage incline chest press"
+   ],
+   "pattern": "press_inclinado",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Agarres a la altura de la parte alta del pecho",
+    "Espalda pegada al respaldo y pecho arriba",
+    "Regresa lento sin soltar la tensión"
+   ]
+  },
+  {
+   "srcId": "Push-Ups_With_Feet_Elevated",
+   "nameEs": "Lagartijas con pies elevados",
+   "aliases": [
+    "lagartijas declinadas",
+    "flexiones con pies en banco",
+    "feet elevated push-ups"
+   ],
+   "pattern": "press_inclinado",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Pies sobre un banco y cuerpo en línea recta",
+    "Manos un poco más abiertas que los hombros",
+    "Baja hasta casi tocar el piso con el pecho"
+   ]
+  },
+  {
+   "srcId": "Decline_Barbell_Bench_Press",
+   "nameEs": "Press declinado con barra",
+   "aliases": [
+    "press declinado",
+    "decline bench press"
+   ],
+   "pattern": "press_declinado_fondos",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Asegura bien los pies en los rodillos del banco",
+    "Baja la barra a la parte baja del pecho",
+    "Usa spotter para descolgar y colgar la barra"
+   ]
+  },
+  {
+   "srcId": "Decline_Dumbbell_Bench_Press",
+   "nameEs": "Press declinado con mancuernas",
+   "aliases": [
+    "press declinado mancuernas",
+    "decline dumbbell press"
+   ],
+   "pattern": "press_declinado_fondos",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Sube las mancuernas apoyándote en los muslos",
+    "Baja a los lados de la parte baja del pecho",
+    "Codos a unos 45° del torso"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Decline_Press",
+   "nameEs": "Press declinado en Smith",
+   "aliases": [
+    "press declinado multipower",
+    "smith decline press"
+   ],
+   "pattern": "press_declinado_fondos",
+   "region": "superior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Acomoda el banco para que la barra baje al pecho bajo",
+    "Escápulas retraídas y ligera curva lumbar",
+    "Pausa breve abajo y empuja controlado"
+   ]
+  },
+  {
+   "srcId": "Leverage_Decline_Chest_Press",
+   "nameEs": "Press declinado en máquina",
+   "aliases": [
+    "press declinado Hammer",
+    "máquina de press declinado",
+    "leverage decline chest press"
+   ],
+   "pattern": "press_declinado_fondos",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Agarres a la altura de la parte baja del pecho",
+    "Pecho arriba y escápulas atrás",
+    "Regresa lento hasta justo antes de la pila"
+   ]
+  },
+  {
+   "srcId": "Dips_-_Chest_Version",
+   "nameEs": "Fondos en paralelas para pecho",
+   "aliases": [
+    "fondos",
+    "fondos de pecho",
+    "chest dips"
+   ],
+   "pattern": "press_declinado_fondos",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Inclina el torso unos 30° hacia el frente",
+    "Codos ligeramente abiertos al bajar",
+    "Baja solo hasta sentir estiramiento en el pecho"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Flyes",
+   "nameEs": "Aperturas planas con mancuernas",
+   "aliases": [
+    "aperturas",
+    "aperturas con mancuernas",
+    "dumbbell flyes"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [],
+   "cues": [
+    "Codos ligeramente flexionados y fijos todo el tiempo",
+    "Abre hasta sentir estiramiento, sin pasar el hombro",
+    "Cierra como si abrazaras un barril"
+   ]
+  },
+  {
+   "srcId": "Incline_Dumbbell_Flyes",
+   "nameEs": "Aperturas inclinadas con mancuernas",
+   "aliases": [
+    "aperturas inclinadas",
+    "incline dumbbell flyes"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Banco a no más de 30°",
+    "Codos semiflexionados y fijos al abrir",
+    "Baja hasta sentir estiramiento en el pecho alto"
+   ]
+  },
+  {
+   "srcId": "Decline_Dumbbell_Flyes",
+   "nameEs": "Aperturas declinadas con mancuernas",
+   "aliases": [
+    "aperturas declinadas",
+    "decline dumbbell flyes"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Asegura los pies en el banco declinado",
+    "Codos semiflexionados y fijos todo el recorrido",
+    "Abre controlado sin bajar más allá del hombro"
+   ]
+  },
+  {
+   "srcId": "Butterfly",
+   "nameEs": "Pec deck",
+   "aliases": [
+    "peck deck",
+    "mariposa",
+    "máquina de aperturas",
+    "butterfly"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ajusta el asiento: brazos paralelos al piso",
+    "Espalda pegada al respaldo toda la serie",
+    "Junta al centro y sostén la contracción 1 segundo"
+   ]
+  },
+  {
+   "srcId": "Cable_Crossover",
+   "nameEs": "Cruces en polea alta",
+   "aliases": [
+    "cruces en polea",
+    "crossover",
+    "cable crossover"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Inclina un poco el torso y da un paso al frente",
+    "Codos semiflexionados y fijos",
+    "Lleva las manos abajo y al centro, aprieta el pecho"
+   ]
+  },
+  {
+   "srcId": "Low_Cable_Crossover",
+   "nameEs": "Cruces en polea baja",
+   "aliases": [
+    "cruces de abajo hacia arriba",
+    "cruces bajos",
+    "low cable crossover"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Poleas abajo y un paso al frente para tensar",
+    "Sube las manos al centro a la altura del pecho",
+    "Codos semiflexionados, sin convertirlo en curl"
+   ]
+  },
+  {
+   "srcId": "Single-Arm_Cable_Crossover",
+   "nameEs": "Cruce en polea a una mano",
+   "aliases": [
+    "cruce unilateral",
+    "cruce a un brazo",
+    "single-arm cable crossover"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [],
+   "cues": [
+    "Pies escalonados y torso firme sin girar",
+    "Lleva la mano hasta cruzar la línea media",
+    "Regresa lento sintiendo el estiramiento"
+   ]
+  },
+  {
+   "srcId": "Flat_Bench_Cable_Flyes",
+   "nameEs": "Aperturas en polea en banco plano",
+   "aliases": [
+    "aperturas con cables",
+    "aperturas en polea",
+    "flat bench cable flyes"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [],
+   "cues": [
+    "Banco centrado entre las dos poleas bajas",
+    "Misma flexión de codo en todo el rango",
+    "Junta las manos arriba del pecho y aprieta"
+   ]
+  },
+  {
+   "srcId": "Incline_Cable_Flye",
+   "nameEs": "Aperturas inclinadas en polea",
+   "aliases": [
+    "aperturas inclinadas con cables",
+    "incline cable flye"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Banco a 45° entre las poleas bajas",
+    "Codos semiflexionados y fijos",
+    "Abre hasta sentir estiramiento en el pecho alto"
+   ]
+  },
+  {
+   "srcId": "Cross_Over_-_With_Bands",
+   "nameEs": "Aperturas de pie con ligas",
+   "aliases": [
+    "cruces con ligas",
+    "aperturas con liga",
+    "band crossover"
+   ],
+   "pattern": "aperturas_pecho",
+   "region": "superior",
+   "equipment": "ligas",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "biceps",
+    "shoulders"
+   ],
+   "cues": [
+    "Ancla la liga detrás de ti a la altura del pecho",
+    "Brazos en T con codos ligeramente flexionados",
+    "Junta las manos al frente sin encorvar la espalda"
+   ]
+  },
+  {
+   "srcId": "Straight-Arm_Dumbbell_Pullover",
+   "nameEs": "Pullover con mancuerna",
+   "aliases": [
+    "pullover",
+    "pull over",
+    "dumbbell pullover"
+   ],
+   "pattern": "pullover",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "lats",
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Apoya solo la parte alta de la espalda en el banco",
+    "Brazos casi rectos y cadera abajo",
+    "Baja detrás de la cabeza hasta sentir estiramiento"
+   ]
+  },
+  {
+   "srcId": "Bent-Arm_Dumbbell_Pullover",
+   "nameEs": "Pullover con mancuerna y brazos flexionados",
+   "aliases": [
+    "pullover codos flexionados",
+    "bent-arm pullover"
+   ],
+   "pattern": "pullover",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "lats",
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Codos flexionados y fijos todo el recorrido",
+    "Baja la mancuerna detrás de la cabeza controlado",
+    "Sube hasta arriba del pecho sin bloquear codos"
+   ]
+  },
+  {
+   "srcId": "Wide-Grip_Decline_Barbell_Pullover",
+   "nameEs": "Pullover con barra en banco declinado",
+   "aliases": [
+    "pullover con barra",
+    "barbell pullover"
+   ],
+   "pattern": "pullover",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "chest"
+   ],
+   "secondary": [
+    "lats",
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Agarre más abierto que los hombros",
+    "Brazos casi rectos durante todo el arco",
+    "Baja detrás de la cabeza sin forzar el hombro"
+   ]
+  },
+  {
+   "srcId": "Standing_Military_Press",
+   "nameEs": "Press militar de pie con barra",
+   "aliases": [
+    "press militar",
+    "overhead press",
+    "military press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Glúteo y abdomen apretados, sin arquear la espalda",
+    "Mete la barbilla para dejar pasar la barra",
+    "Termina con la barra arriba de la cabeza, no al frente"
+   ]
+  },
+  {
+   "srcId": "Barbell_Shoulder_Press",
+   "nameEs": "Press militar sentado con barra",
+   "aliases": [
+    "press de hombro con barra",
+    "press militar sentado",
+    "seated barbell shoulder press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "chest",
+    "triceps"
+   ],
+   "cues": [
+    "Espalda pegada al respaldo y pies firmes",
+    "Baja la barra al frente hasta la clavícula",
+    "Empuja en línea recta sobre la cabeza"
+   ]
+  },
+  {
+   "srcId": "Standing_Barbell_Press_Behind_Neck",
+   "nameEs": "Press tras nuca",
+   "aliases": [
+    "press detrás de nuca",
+    "press tras nuca con barra",
+    "behind the neck press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Hazlo solo si tienes buena movilidad de hombro",
+    "Baja controlado hasta la altura de las orejas",
+    "Torso erguido y abdomen firme todo el tiempo"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Shoulder_Press",
+   "nameEs": "Press de hombro sentado con mancuernas",
+   "aliases": [
+    "press con mancuernas",
+    "press militar con mancuernas",
+    "dumbbell shoulder press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Respaldo casi vertical y espalda pegada",
+    "Codos ligeramente al frente del torso",
+    "Sube sin chocar las mancuernas arriba"
+   ]
+  },
+  {
+   "srcId": "Standing_Dumbbell_Press",
+   "nameEs": "Press de hombro de pie con mancuernas",
+   "aliases": [
+    "press de pie con mancuernas",
+    "standing dumbbell press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Sin impulso de piernas ni arquear la espalda",
+    "Inicia con las mancuernas a la altura de la cabeza",
+    "Abdomen y glúteo apretados al empujar"
+   ]
+  },
+  {
+   "srcId": "Arnold_Dumbbell_Press",
+   "nameEs": "Press Arnold",
+   "aliases": [
+    "Arnold press",
+    "press Arnold con mancuernas"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Inicia con palmas hacia ti a la altura del pecho",
+    "Gira las palmas al frente mientras subes",
+    "Invierte el giro al bajar, controlado"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_One-Arm_Shoulder_Press",
+   "nameEs": "Press de hombro con mancuerna a una mano",
+   "aliases": [
+    "press unilateral de hombro",
+    "one-arm dumbbell shoulder press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Abdomen firme para no inclinarte de lado",
+    "Palma al frente y antebrazo vertical",
+    "Baja controlado hasta la altura del hombro"
+   ]
+  },
+  {
+   "srcId": "Standing_Palms-In_Dumbbell_Press",
+   "nameEs": "Press de hombro con mancuernas agarre neutro",
+   "aliases": [
+    "press neutro de hombro",
+    "press martillo de hombro",
+    "palms-in dumbbell press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Palmas viéndose entre sí todo el recorrido",
+    "Codos al frente y antebrazos verticales",
+    "Sube en línea recta sin arquear la espalda"
+   ]
+  },
+  {
+   "srcId": "Machine_Shoulder_Military_Press",
+   "nameEs": "Press de hombro en máquina",
+   "aliases": [
+    "press militar en máquina",
+    "shoulder press",
+    "machine shoulder press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Ajusta el asiento: agarres a la altura del hombro",
+    "Espalda pegada al respaldo",
+    "Baja lento sin dejar que las placas choquen"
+   ]
+  },
+  {
+   "srcId": "Leverage_Shoulder_Press",
+   "nameEs": "Press de hombro en máquina Hammer",
+   "aliases": [
+    "press Hammer de hombro",
+    "press de hombro de palanca",
+    "leverage shoulder press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Agarres a la altura de la parte alta del hombro",
+    "Pecho arriba y cabeza neutra",
+    "Pausa breve arriba y regresa controlado"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Overhead_Shoulder_Press",
+   "nameEs": "Press militar en Smith",
+   "aliases": [
+    "press de hombro en Smith",
+    "press militar multipower",
+    "smith machine shoulder press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Siéntate un poco detrás de la barra",
+    "Usa banco con respaldo y espalda pegada",
+    "Baja la barra al frente hasta la barbilla"
+   ]
+  },
+  {
+   "srcId": "Cable_Shoulder_Press",
+   "nameEs": "Press de hombro de pie en polea",
+   "aliases": [
+    "press de hombro con cables",
+    "cable shoulder press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Párate al centro entre las dos poleas bajas",
+    "Inicia con las manos a la altura del hombro",
+    "Empuja arriba sin arquear la espalda baja"
+   ]
+  },
+  {
+   "srcId": "Shoulder_Press_-_With_Bands",
+   "nameEs": "Press de hombro con ligas",
+   "aliases": [
+    "press militar con liga",
+    "shoulder press with bands"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "ligas",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Pisa la liga con ambos pies al ancho de cadera",
+    "Manos a la altura del hombro, palmas al frente",
+    "Extiende arriba y baja controlado"
+   ]
+  },
+  {
+   "srcId": "Two-Arm_Kettlebell_Military_Press",
+   "nameEs": "Press militar con pesas rusas",
+   "aliases": [
+    "press con kettlebells",
+    "press de hombro con pesa rusa",
+    "two-arm kettlebell military press"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "pesa_rusa",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Lleva las pesas al hombro con un clean controlado",
+    "Antebrazos verticales y muñecas rectas",
+    "Empuja arriba con glúteo y abdomen apretados"
+   ]
+  },
+  {
+   "srcId": "Handstand_Push-Ups",
+   "nameEs": "Lagartijas en parada de manos",
+   "aliases": [
+    "flexiones de pino",
+    "lagartijas de cabeza",
+    "handstand push-ups"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "expert",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "triceps"
+   ],
+   "cues": [
+    "Hazlas contra la pared y con spotter al principio",
+    "Manos al ancho de hombros y cuerpo recto",
+    "Baja controlado hasta casi tocar el piso con la cabeza"
+   ]
+  },
+  {
+   "srcId": "Single-Arm_Linear_Jammer",
+   "nameEs": "Press landmine a una mano",
+   "aliases": [
+    "landmine press",
+    "press con mina",
+    "linear jammer"
+   ],
+   "pattern": "press_vertical",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "chest",
+    "triceps"
+   ],
+   "cues": [
+    "Ancla bien la barra en la esquina o en el landmine",
+    "Postura amplia y abdomen firme",
+    "Empuja arriba y al frente extendiendo la cadera"
+   ]
+  },
+  {
+   "srcId": "Side_Lateral_Raise",
+   "nameEs": "Elevaciones laterales con mancuernas",
+   "aliases": [
+    "laterales",
+    "elevaciones laterales",
+    "lateral raise"
+   ],
+   "pattern": "elevacion_lateral",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Sube hasta la altura del hombro, no más",
+    "Codos ligeramente flexionados, guía con ellos",
+    "Sin balanceo: torso quieto y baja lento"
+   ]
+  },
+  {
+   "srcId": "Seated_Side_Lateral_Raise",
+   "nameEs": "Elevaciones laterales sentado",
+   "aliases": [
+    "laterales sentado",
+    "seated lateral raise"
+   ],
+   "pattern": "elevacion_lateral",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Siéntate en la orilla del banco con pies firmes",
+    "Sube con codos ligeramente flexionados",
+    "Detente a la altura del hombro y baja lento"
+   ]
+  },
+  {
+   "srcId": "One-Arm_Side_Laterals",
+   "nameEs": "Elevación lateral a una mano apoyado",
+   "aliases": [
+    "lateral unilateral",
+    "lateral inclinado",
+    "one-arm side laterals"
+   ],
+   "pattern": "elevacion_lateral",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Sujétate de un soporte e inclínate un poco",
+    "Sube la mancuerna hasta la altura del hombro",
+    "Controla la bajada sin dejarla caer"
+   ]
+  },
+  {
+   "srcId": "One-Arm_Incline_Lateral_Raise",
+   "nameEs": "Elevación lateral acostado en banco inclinado",
+   "aliases": [
+    "lateral en banco inclinado",
+    "lateral acostado de lado",
+    "one-arm incline lateral raise"
+   ],
+   "pattern": "elevacion_lateral",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Acuéstate de lado con el hombro pegado al banco",
+    "Mantén la mancuerna paralela al piso al subir",
+    "Sube con brazo casi recto y baja controlado"
+   ]
+  },
+  {
+   "srcId": "Standing_Low-Pulley_Deltoid_Raise",
+   "nameEs": "Elevación lateral en polea a una mano",
+   "aliases": [
+    "lateral en polea",
+    "lateral con cable",
+    "cable lateral raise"
+   ],
+   "pattern": "elevacion_lateral",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Toma la polea baja con la mano contraria",
+    "Sujétate de la máquina con torso erguido",
+    "Sube hasta la altura del hombro y baja lento"
+   ]
+  },
+  {
+   "srcId": "Lateral_Raise_-_With_Bands",
+   "nameEs": "Elevaciones laterales con ligas",
+   "aliases": [
+    "laterales con liga",
+    "lateral raise with bands"
+   ],
+   "pattern": "elevacion_lateral",
+   "region": "superior",
+   "equipment": "ligas",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Pisa la liga para tener tensión desde abajo",
+    "Codos ligeramente flexionados al subir",
+    "Sube a la altura del hombro y baja controlado"
+   ]
+  },
+  {
+   "srcId": "Upright_Barbell_Row",
+   "nameEs": "Remo al mentón con barra",
+   "aliases": [
+    "remo al cuello",
+    "remo parado",
+    "upright row"
+   ],
+   "pattern": "elevacion_lateral",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "traps"
+   ],
+   "cues": [
+    "Barra pegada al cuerpo durante todo el recorrido",
+    "Sube guiando con los codos hacia los lados",
+    "Detente con los codos a la altura del hombro"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_One-Arm_Upright_Row",
+   "nameEs": "Remo al mentón con mancuerna a una mano",
+   "aliases": [
+    "remo al cuello con mancuerna",
+    "one-arm upright row"
+   ],
+   "pattern": "elevacion_lateral",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "biceps",
+    "traps"
+   ],
+   "cues": [
+    "Mancuerna pegada al cuerpo al subir",
+    "Guía con el codo hacia afuera y arriba",
+    "Detente con el codo a la altura del hombro"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_One-Arm_Upright_Row",
+   "nameEs": "Remo al mentón en Smith a una mano",
+   "aliases": [
+    "remo al cuello en Smith",
+    "smith one-arm upright row"
+   ],
+   "pattern": "elevacion_lateral",
+   "region": "superior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "biceps",
+    "traps"
+   ],
+   "cues": [
+    "Agarre abierto y torso erguido",
+    "Sube el codo hacia afuera hasta la altura del hombro",
+    "Baja controlado sin soltar la tensión"
+   ]
+  },
+  {
+   "srcId": "Front_Two-Dumbbell_Raise",
+   "nameEs": "Elevaciones frontales con mancuernas",
+   "aliases": [
+    "frontales",
+    "elevación frontal",
+    "front dumbbell raise"
+   ],
+   "pattern": "elevacion_frontal",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Sube hasta la altura de los ojos, palmas abajo",
+    "Codos ligeramente flexionados",
+    "Torso quieto, sin balancearte"
+   ]
+  },
+  {
+   "srcId": "Front_Plate_Raise",
+   "nameEs": "Elevación frontal con disco",
+   "aliases": [
+    "frontal con disco",
+    "front plate raise"
+   ],
+   "pattern": "elevacion_frontal",
+   "region": "superior",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Toma el disco a las 3 y las 9, como un volante",
+    "Brazos casi rectos, sube a la altura de los ojos",
+    "Baja lento sin arquear la espalda"
+   ]
+  },
+  {
+   "srcId": "Front_Cable_Raise",
+   "nameEs": "Elevación frontal en polea",
+   "aliases": [
+    "frontal en polea",
+    "frontal con cable",
+    "front cable raise"
+   ],
+   "pattern": "elevacion_frontal",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Dale la espalda a la polea baja",
+    "Sube con el brazo casi recto hasta el hombro",
+    "Sin balanceo: abdomen y glúteo firmes"
+   ]
+  },
+  {
+   "srcId": "Standing_Front_Barbell_Raise_Over_Head",
+   "nameEs": "Elevación frontal con barra",
+   "aliases": [
+    "frontal con barra",
+    "barbell front raise"
+   ],
+   "pattern": "elevacion_frontal",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Agarre un poco más cerrado que los hombros",
+    "Codos semiflexionados y fijos al subir",
+    "Sube controlado y evita arquear la espalda"
+   ]
+  },
+  {
+   "srcId": "Front_Incline_Dumbbell_Raise",
+   "nameEs": "Elevación frontal en banco inclinado",
+   "aliases": [
+    "frontal sentado inclinado",
+    "incline front raise"
+   ],
+   "pattern": "elevacion_frontal",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Banco entre 30 y 60° con espalda pegada",
+    "Palmas abajo y brazos casi rectos",
+    "Sube hasta la altura del hombro y baja lento"
+   ]
+  },
+  {
+   "srcId": "Reverse_Machine_Flyes",
+   "nameEs": "Pec deck invertido",
+   "aliases": [
+    "pájaros en máquina",
+    "reverse pec deck",
+    "reverse machine flyes"
+   ],
+   "pattern": "deltoide_posterior",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ajusta el asiento: agarres a la altura del hombro",
+    "Codos ligeramente flexionados y fijos",
+    "Abre en arco hacia atrás sin encoger hombros"
+   ]
+  },
+  {
+   "srcId": "Seated_Bent-Over_Rear_Delt_Raise",
+   "nameEs": "Pájaros sentado con mancuernas",
+   "aliases": [
+    "pájaros",
+    "pájaros sentado",
+    "rear delt raise"
+   ],
+   "pattern": "deltoide_posterior",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Torso inclinado al frente casi sobre los muslos",
+    "Abre hacia los lados con codos semiflexionados",
+    "Detente a la altura del hombro y baja lento"
+   ]
+  },
+  {
+   "srcId": "Reverse_Flyes",
+   "nameEs": "Pájaros acostado en banco inclinado",
+   "aliases": [
+    "pájaros con pecho apoyado",
+    "pájaros en banco",
+    "reverse flyes"
+   ],
+   "pattern": "deltoide_posterior",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Pecho y abdomen apoyados en el banco",
+    "Codos semiflexionados, abre hacia los lados",
+    "Controla la bajada sin balancearte"
+   ]
+  },
+  {
+   "srcId": "Cable_Rear_Delt_Fly",
+   "nameEs": "Pájaros en polea",
+   "aliases": [
+    "pájaros cruzados en polea",
+    "cable rear delt fly"
+   ],
+   "pattern": "deltoide_posterior",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Cruza los cables: mano derecha a polea izquierda",
+    "Abre hacia atrás con brazos casi rectos",
+    "Pausa al final y regresa controlado"
+   ]
+  },
+  {
+   "srcId": "Bent_Over_Low-Pulley_Side_Lateral",
+   "nameEs": "Pájaro en polea baja a una mano",
+   "aliases": [
+    "pájaro unilateral en polea",
+    "bent over cable lateral"
+   ],
+   "pattern": "deltoide_posterior",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "lower back",
+    "middle back",
+    "traps"
+   ],
+   "cues": [
+    "Torso casi paralelo al piso, mano libre en el muslo",
+    "Sube el brazo al lado con el codo semiflexionado",
+    "No gires el torso al subir"
+   ]
+  },
+  {
+   "srcId": "Face_Pull",
+   "nameEs": "Face pull",
+   "aliases": [
+    "jalón a la cara",
+    "face pull con cuerda"
+   ],
+   "pattern": "deltoide_posterior",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "middle back"
+   ],
+   "cues": [
+    "Polea alta con cuerda a la altura de la cara",
+    "Jala hacia la cara separando las manos",
+    "Brazos paralelos al piso, codos a altura del hombro"
+   ]
+  },
+  {
+   "srcId": "Band_Pull_Apart",
+   "nameEs": "Pull apart con liga",
+   "aliases": [
+    "separación de liga",
+    "aperturas con liga para hombro",
+    "band pull apart"
+   ],
+   "pattern": "deltoide_posterior",
+   "region": "superior",
+   "equipment": "ligas",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "middle back",
+    "traps"
+   ],
+   "cues": [
+    "Brazos extendidos al frente a la altura del pecho",
+    "Separa la liga hasta que toque el pecho",
+    "Hombros abajo, sin encogerlos"
+   ]
+  },
+  {
+   "srcId": "Barbell_Rear_Delt_Row",
+   "nameEs": "Remo con barra para deltoide posterior",
+   "aliases": [
+    "remo abierto con barra",
+    "rear delt row"
+   ],
+   "pattern": "deltoide_posterior",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "biceps",
+    "lats",
+    "middle back"
+   ],
+   "cues": [
+    "Agarre abierto y torso paralelo al piso",
+    "Jala con los codos abiertos, brazos en T",
+    "Lleva la barra a la parte alta del pecho"
+   ]
+  },
+  {
+   "srcId": "Cable_Rope_Rear-Delt_Rows",
+   "nameEs": "Remo con cuerda para deltoide posterior",
+   "aliases": [
+    "remo alto con cuerda",
+    "rope rear delt row"
+   ],
+   "pattern": "deltoide_posterior",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back"
+   ],
+   "cues": [
+    "Brazos paralelos al piso con codos abiertos",
+    "Jala hacia el cuello separando la cuerda",
+    "Torso quieto, sin echarte para atrás"
+   ]
+  },
+  {
+   "srcId": "External_Rotation_with_Cable",
+   "nameEs": "Rotación externa en polea",
+   "aliases": [
+    "rotador externo en polea",
+    "manguito rotador",
+    "external rotation with cable"
+   ],
+   "pattern": "otro",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Polea a la altura del codo y codo pegado al torso",
+    "Codo a 90°, gira el antebrazo hacia afuera",
+    "Poco peso y movimiento lento"
+   ]
+  },
+  {
+   "srcId": "External_Rotation_with_Band",
+   "nameEs": "Rotación externa con liga",
+   "aliases": [
+    "rotador con liga",
+    "external rotation with band"
+   ],
+   "pattern": "otro",
+   "region": "superior",
+   "equipment": "ligas",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ancla la liga a la altura del codo",
+    "Toalla entre el codo y el torso para fijarlo",
+    "Gira hacia afuera sin despegar el codo"
+   ]
+  },
+  {
+   "srcId": "External_Rotation",
+   "nameEs": "Rotación externa acostado con mancuerna",
+   "aliases": [
+    "rotador con mancuerna",
+    "external rotation"
+   ],
+   "pattern": "otro",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "shoulders"
+   ],
+   "secondary": [],
+   "cues": [
+    "Acuéstate de lado con el codo pegado al costado",
+    "Codo a 90°, sube el antebrazo girando el hombro",
+    "Usa peso ligero y baja controlado"
+   ]
+  },
+  {
+   "srcId": "Lying_Face_Down_Plate_Neck_Resistance",
+   "nameEs": "Extensión de cuello con disco boca abajo",
+   "aliases": [
+    "cuello con disco",
+    "extensión de cuello",
+    "neck extension"
+   ],
+   "pattern": "otro",
+   "region": "superior",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "neck"
+   ],
+   "secondary": [],
+   "cues": [
+    "Hombros en la orilla del banco y cabeza fuera",
+    "Sujeta el disco firme detrás de la cabeza",
+    "Movimiento lento y corto, sin tirones"
+   ]
+  },
+  {
+   "srcId": "Lying_Face_Up_Plate_Neck_Resistance",
+   "nameEs": "Flexión de cuello con disco boca arriba",
+   "aliases": [
+    "cuello boca arriba",
+    "flexión de cuello",
+    "neck flexion"
+   ],
+   "pattern": "otro",
+   "region": "superior",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "neck"
+   ],
+   "secondary": [],
+   "cues": [
+    "Hombros en la orilla del banco y cabeza fuera",
+    "Disco sobre la frente con una toalla de por medio",
+    "Lleva la barbilla al pecho lento y controlado"
+   ]
+  },
+  {
+   "srcId": "Isometric_Neck_Exercise_-_Front_And_Back",
+   "nameEs": "Isométrico de cuello al frente y atrás",
+   "aliases": [
+    "isométricos de cuello",
+    "isometric neck exercise"
+   ],
+   "pattern": "otro",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "neck"
+   ],
+   "secondary": [],
+   "cues": [
+    "Cabeza neutra: empuja contra tus manos sin moverla",
+    "Aumenta la tensión de forma gradual",
+    "Respira normal mientras sostienes"
+   ]
+  },
+  {
+   "srcId": "Pullups",
+   "nameEs": "Dominadas",
+   "aliases": [
+    "dominadas abiertas",
+    "dominadas pronas",
+    "pull ups"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back"
+   ],
+   "cues": [
+    "Agarre prono un poco más ancho que los hombros",
+    "Jala con los codos hacia las costillas, pecho arriba",
+    "Baja controlado hasta extender los brazos"
+   ]
+  },
+  {
+   "srcId": "Chin-Up",
+   "nameEs": "Dominadas supinas",
+   "aliases": [
+    "chin ups",
+    "dominadas agarre supino",
+    "Chin-Up"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "forearms",
+    "middle back"
+   ],
+   "cues": [
+    "Palmas hacia ti, al ancho de hombros",
+    "Sube hasta pasar la barbilla sin balancearte",
+    "Baja lento hasta extender por completo"
+   ]
+  },
+  {
+   "srcId": "Band_Assisted_Pull-Up",
+   "nameEs": "Dominadas asistidas con liga",
+   "aliases": [
+    "dominadas con liga",
+    "band assisted pull-up"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "ligas",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "abdominals",
+    "biceps",
+    "forearms",
+    "middle back"
+   ],
+   "cues": [
+    "Mete rodilla o pie en la liga de forma segura",
+    "Jala llevando el pecho hacia la barra",
+    "Usa la liga más delgada que te deje reps limpias"
+   ]
+  },
+  {
+   "srcId": "Weighted_Pull_Ups",
+   "nameEs": "Dominadas con lastre",
+   "aliases": [
+    "dominadas con peso",
+    "weighted pull ups"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back"
+   ],
+   "cues": [
+    "Asegura el disco o mancuerna al cinturón",
+    "Evita balancearte, que el peso cuelgue quieto",
+    "Mantén el rango completo aunque bajen las reps"
+   ]
+  },
+  {
+   "srcId": "V-Bar_Pullup",
+   "nameEs": "Dominadas agarre neutro",
+   "aliases": [
+    "dominadas con triángulo",
+    "dominadas neutras",
+    "V-bar pullup"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back",
+    "shoulders"
+   ],
+   "cues": [
+    "Palmas enfrentadas en el triángulo o maneral",
+    "Lleva el pecho hacia las manos",
+    "Codos pegados al torso al subir"
+   ]
+  },
+  {
+   "srcId": "Wide-Grip_Lat_Pulldown",
+   "nameEs": "Jalón al pecho agarre abierto",
+   "aliases": [
+    "jalón al pecho",
+    "jalón abierto",
+    "lat pulldown"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back",
+    "shoulders"
+   ],
+   "cues": [
+    "Ajusta el rodillo para que no se levanten tus muslos",
+    "Baja la barra a la parte alta del pecho",
+    "Pecho arriba, sin echarte muy atrás"
+   ]
+  },
+  {
+   "srcId": "Close-Grip_Front_Lat_Pulldown",
+   "nameEs": "Jalón al pecho agarre cerrado",
+   "aliases": [
+    "jalón cerrado",
+    "close-grip lat pulldown"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back",
+    "shoulders"
+   ],
+   "cues": [
+    "Agarre prono a la anchura de los hombros",
+    "Lleva los codos hacia abajo y atrás",
+    "Sube controlado hasta estirar el dorsal"
+   ]
+  },
+  {
+   "srcId": "Underhand_Cable_Pulldowns",
+   "nameEs": "Jalón al pecho agarre supino",
+   "aliases": [
+    "jalón supino",
+    "jalón inverso",
+    "underhand pulldown"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back",
+    "shoulders"
+   ],
+   "cues": [
+    "Palmas hacia ti, al ancho de hombros",
+    "Baja la barra al pecho con codos pegados",
+    "No conviertas el jalón en curl de bíceps"
+   ]
+  },
+  {
+   "srcId": "V-Bar_Pulldown",
+   "nameEs": "Jalón con triángulo",
+   "aliases": [
+    "jalón agarre neutro",
+    "jalón con maneral V",
+    "V-bar pulldown"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back",
+    "shoulders"
+   ],
+   "cues": [
+    "Inclina el torso ligeramente hacia atrás",
+    "Lleva el triángulo al pecho, codos pegados",
+    "Estira completo arriba sin perder la postura"
+   ]
+  },
+  {
+   "srcId": "One_Arm_Lat_Pulldown",
+   "nameEs": "Jalón a una mano",
+   "aliases": [
+    "jalón unilateral",
+    "one arm lat pulldown"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back"
+   ],
+   "cues": [
+    "Lleva el codo hacia tu costado",
+    "Evita girar el torso para jalar",
+    "Deja que el hombro suba al estirar arriba"
+   ]
+  },
+  {
+   "srcId": "Kneeling_Single-Arm_High_Pulley_Row",
+   "nameEs": "Jalón unilateral hincado en polea",
+   "aliases": [
+    "jalón arrodillado a una mano",
+    "kneeling single-arm high pulley row"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back"
+   ],
+   "cues": [
+    "Hincado, cadera firme y abdomen apretado",
+    "Jala el codo hacia la cadera girando la palma",
+    "Controla la subida hasta estirar el dorsal"
+   ]
+  },
+  {
+   "srcId": "Leverage_High_Row",
+   "nameEs": "Remo alto en máquina",
+   "aliases": [
+    "high row",
+    "remo alto Hammer",
+    "leverage high row"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats"
+   ],
+   "cues": [
+    "Ajusta el asiento para apenas alcanzar los mangos",
+    "Jala hacia el pecho juntando escápulas",
+    "Regresa lento hasta estirar los brazos"
+   ]
+  },
+  {
+   "srcId": "Scapular_Pull-Up",
+   "nameEs": "Dominadas escapulares",
+   "aliases": [
+    "depresiones escapulares en barra",
+    "scapular pull-up"
+   ],
+   "pattern": "jalon_vertical",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [
+    "lats",
+    "middle back"
+   ],
+   "cues": [
+    "Cuelga con brazos rectos, sin doblar codos",
+    "Baja los hombros lejos de las orejas",
+    "Sube y baja lento, solo con las escápulas"
+   ]
+  },
+  {
+   "srcId": "Bent_Over_Barbell_Row",
+   "nameEs": "Remo con barra",
+   "aliases": [
+    "remo inclinado con barra",
+    "remo con barra prono",
+    "bent over row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats",
+    "shoulders"
+   ],
+   "cues": [
+    "Torso inclinado casi paralelo, espalda neutra",
+    "Jala la barra hacia el ombligo, codos atrás",
+    "Rodillas semiflexionadas, sin dar tirones"
+   ]
+  },
+  {
+   "srcId": "Reverse_Grip_Bent-Over_Rows",
+   "nameEs": "Remo con barra agarre supino",
+   "aliases": [
+    "remo Yates",
+    "remo supino con barra",
+    "reverse grip bent-over row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats",
+    "shoulders"
+   ],
+   "cues": [
+    "Agarre supino al ancho de hombros",
+    "Torso inclinado y espalda neutra",
+    "Lleva la barra al abdomen bajo, codos pegados"
+   ]
+  },
+  {
+   "srcId": "Bent_Over_Two-Dumbbell_Row",
+   "nameEs": "Remo inclinado con mancuernas",
+   "aliases": [
+    "remo con dos mancuernas",
+    "bent over dumbbell row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats",
+    "shoulders"
+   ],
+   "cues": [
+    "Inclina el torso con la espalda neutra",
+    "Sube las mancuernas hacia la cadera",
+    "Aprieta escápulas arriba y baja controlado"
+   ]
+  },
+  {
+   "srcId": "One-Arm_Dumbbell_Row",
+   "nameEs": "Remo con mancuerna a una mano",
+   "aliases": [
+    "remo serrucho",
+    "remo unilateral con mancuerna",
+    "one-arm dumbbell row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats",
+    "shoulders"
+   ],
+   "cues": [
+    "Apoya rodilla y mano en el banco, espalda plana",
+    "Lleva la mancuerna hacia la cadera",
+    "No gires el torso para subir el peso"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Incline_Row",
+   "nameEs": "Remo con mancuernas en banco inclinado",
+   "aliases": [
+    "remo con pecho apoyado",
+    "chest supported row",
+    "dumbbell incline row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "forearms",
+    "lats",
+    "shoulders"
+   ],
+   "cues": [
+    "Pecho pegado al banco todo el movimiento",
+    "Agarre neutro, codos pegados al torso",
+    "Junta escápulas arriba y baja lento"
+   ]
+  },
+  {
+   "srcId": "Incline_Bench_Pull",
+   "nameEs": "Remo en banco inclinado codos abiertos",
+   "aliases": [
+    "remo pecho apoyado codos abiertos",
+    "incline bench pull"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "lats",
+    "shoulders"
+   ],
+   "cues": [
+    "Pecho apoyado en el banco a unos 30°",
+    "Agarre prono con codos abiertos a los lados",
+    "Junta escápulas sin encoger los hombros"
+   ]
+  },
+  {
+   "srcId": "One-Arm_Long_Bar_Row",
+   "nameEs": "Remo landmine a una mano",
+   "aliases": [
+    "remo en T a una mano",
+    "remo Meadows",
+    "one-arm long bar row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats"
+   ],
+   "cues": [
+    "Párate de lado a la barra, cadera atrás",
+    "Jala hacia la cadera con el codo pegado",
+    "Espalda neutra, no rotes el torso"
+   ]
+  },
+  {
+   "srcId": "T-Bar_Row_with_Handle",
+   "nameEs": "Remo en T",
+   "aliases": [
+    "remo con barra T",
+    "remo landmine",
+    "T-bar row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats"
+   ],
+   "cues": [
+    "Cadera atrás, pecho arriba y espalda neutra",
+    "Jala el maneral hacia la parte alta del abdomen",
+    "Baja controlado sin redondear la espalda"
+   ]
+  },
+  {
+   "srcId": "Lying_T-Bar_Row",
+   "nameEs": "Remo en T con pecho apoyado",
+   "aliases": [
+    "remo en T en máquina",
+    "lying T-bar row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats"
+   ],
+   "cues": [
+    "Apoya la parte alta del pecho en el cojín",
+    "Jala sin despegar el pecho del cojín",
+    "Junta escápulas arriba y baja lento"
+   ]
+  },
+  {
+   "srcId": "Seated_Cable_Rows",
+   "nameEs": "Remo sentado en polea",
+   "aliases": [
+    "remo bajo",
+    "remo en polea baja con triángulo",
+    "seated cable row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats",
+    "shoulders"
+   ],
+   "cues": [
+    "Rodillas semiflexionadas, torso erguido",
+    "Lleva el triángulo al abdomen, pecho arriba",
+    "No balancees el torso para mover el peso"
+   ]
+  },
+  {
+   "srcId": "Seated_One-arm_Cable_Pulley_Rows",
+   "nameEs": "Remo sentado en polea a una mano",
+   "aliases": [
+    "remo bajo unilateral",
+    "seated one-arm cable row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats",
+    "traps"
+   ],
+   "cues": [
+    "Torso quieto, sin girar para jalar",
+    "Lleva el codo atrás pegado al cuerpo",
+    "Estira completo al regresar sin encorvarte"
+   ]
+  },
+  {
+   "srcId": "Leverage_Iso_Row",
+   "nameEs": "Remo en máquina",
+   "aliases": [
+    "remo Hammer",
+    "remo sentado en máquina",
+    "leverage iso row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back"
+   ],
+   "cues": [
+    "Ajusta el asiento: mangos a la altura del pecho",
+    "Pecho pegado al cojín al jalar",
+    "Junta escápulas y regresa controlado"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Bent_Over_Row",
+   "nameEs": "Remo en Smith",
+   "aliases": [
+    "remo inclinado en máquina Smith",
+    "smith machine row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats",
+    "shoulders"
+   ],
+   "cues": [
+    "Torso inclinado casi paralelo, espalda neutra",
+    "Jala la barra hacia el ombligo",
+    "Rodillas semiflexionadas y abdomen firme"
+   ]
+  },
+  {
+   "srcId": "Inverted_Row",
+   "nameEs": "Remo invertido",
+   "aliases": [
+    "remo australiano",
+    "inverted row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats"
+   ],
+   "cues": [
+    "Cuerpo recto de talones a cabeza, glúteo firme",
+    "Lleva el pecho a la barra juntando escápulas",
+    "Más horizontal = más difícil; ajusta la altura"
+   ]
+  },
+  {
+   "srcId": "Suspended_Row",
+   "nameEs": "Remo en TRX",
+   "aliases": [
+    "remo en suspensión",
+    "TRX row",
+    "suspended row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "otro",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats"
+   ],
+   "cues": [
+    "Cuerpo en línea recta, abdomen apretado",
+    "Jala con codos atrás hasta las costillas",
+    "Más inclinado = más difícil; ajusta los pies"
+   ]
+  },
+  {
+   "srcId": "One-Arm_Kettlebell_Row",
+   "nameEs": "Remo con pesa rusa a una mano",
+   "aliases": [
+    "remo con kettlebell",
+    "one-arm kettlebell row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "pesa_rusa",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "biceps",
+    "lats"
+   ],
+   "cues": [
+    "Cadera atrás y espalda neutra",
+    "Jala la pesa hacia la cadera, codo pegado",
+    "Baja controlado sin girar el torso"
+   ]
+  },
+  {
+   "srcId": "Alternating_Renegade_Row",
+   "nameEs": "Remo renegado",
+   "aliases": [
+    "remo en plancha",
+    "renegade row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "pesa_rusa",
+   "mechanic": "compuesto",
+   "level": "expert",
+   "primary": [
+    "middle back"
+   ],
+   "secondary": [
+    "abdominals",
+    "biceps",
+    "chest",
+    "lats",
+    "triceps"
+   ],
+   "cues": [
+    "Plancha alta con pies abiertos para estabilidad",
+    "Rema una pesa sin girar la cadera",
+    "Empuja la otra pesa firme contra el piso"
+   ]
+  },
+  {
+   "srcId": "Shotgun_Row",
+   "nameEs": "Remo de pie a una mano en polea",
+   "aliases": [
+    "remo unilateral de pie en polea",
+    "shotgun row"
+   ],
+   "pattern": "remo",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back"
+   ],
+   "cues": [
+    "Postura en zancada, torso firme",
+    "Jala girando la palma hacia arriba al final",
+    "Deja ir el hombro al frente al estirar"
+   ]
+  },
+  {
+   "srcId": "Bent-Arm_Barbell_Pullover",
+   "nameEs": "Pullover con barra",
+   "aliases": [
+    "pullover acostado con barra",
+    "barbell pullover"
+   ],
+   "pattern": "pullover",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [
+    "chest",
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Codos ligeramente flexionados y fijos",
+    "Baja la barra detrás de la cabeza en arco",
+    "Abdomen firme, no arquees la espalda baja"
+   ]
+  },
+  {
+   "srcId": "Straight-Arm_Pulldown",
+   "nameEs": "Pullover en polea",
+   "aliases": [
+    "jalón con brazos rectos",
+    "pullover de pie en polea",
+    "straight-arm pulldown"
+   ],
+   "pattern": "pullover",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [],
+   "cues": [
+    "Brazos casi rectos, codos fijos",
+    "Lleva la barra hacia los muslos en arco",
+    "Torso inclinado, sin usar impulso"
+   ]
+  },
+  {
+   "srcId": "Rope_Straight-Arm_Pulldown",
+   "nameEs": "Pullover en polea con cuerda",
+   "aliases": [
+    "jalón brazos rectos con cuerda",
+    "rope straight-arm pulldown"
+   ],
+   "pattern": "pullover",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "lats"
+   ],
+   "secondary": [],
+   "cues": [
+    "Cadera atrás y espalda neutra",
+    "Lleva la cuerda a los muslos con brazos rectos",
+    "Abre la cuerda al final y aprieta el dorsal"
+   ]
+  },
+  {
+   "srcId": "Barbell_Deadlift",
+   "nameEs": "Peso muerto",
+   "aliases": [
+    "peso muerto convencional",
+    "deadlift"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "lower back"
+   ],
+   "secondary": [
+    "calves",
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "lats",
+    "middle back",
+    "quadriceps",
+    "traps"
+   ],
+   "cues": [
+    "Barra pegada a las espinillas al iniciar",
+    "Espalda neutra, empuja el piso con las piernas",
+    "Extiende la cadera arriba sin echarte atrás"
+   ]
+  },
+  {
+   "srcId": "Deficit_Deadlift",
+   "nameEs": "Peso muerto en déficit",
+   "aliases": [
+    "peso muerto con déficit",
+    "deficit deadlift"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "lower back"
+   ],
+   "secondary": [
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "middle back",
+    "quadriceps",
+    "traps"
+   ],
+   "cues": [
+    "Párate sobre una plataforma de 3 a 8 cm",
+    "Mantén la espalda neutra pese al mayor rango",
+    "Barra pegada a las piernas todo el recorrido"
+   ]
+  },
+  {
+   "srcId": "Rack_Pulls",
+   "nameEs": "Rack pull",
+   "aliases": [
+    "peso muerto parcial",
+    "peso muerto desde rack",
+    "rack pulls"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "lower back"
+   ],
+   "secondary": [
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "traps"
+   ],
+   "cues": [
+    "Coloca la barra en los seguros a la altura elegida",
+    "Espalda neutra y escápulas firmes",
+    "Empuja la cadera al frente para terminar"
+   ]
+  },
+  {
+   "srcId": "Hyperextensions_Back_Extensions",
+   "nameEs": "Hiperextensiones",
+   "aliases": [
+    "extensiones lumbares",
+    "banco romano",
+    "back extensions"
+   ],
+   "pattern": "extension_lumbar",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "lower back"
+   ],
+   "secondary": [
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Ajusta el cojín a la altura de la cadera",
+    "Baja controlado sin redondear de más",
+    "Sube hasta alinear el cuerpo, no hiperextiendas"
+   ]
+  },
+  {
+   "srcId": "Weighted_Ball_Hyperextension",
+   "nameEs": "Hiperextensiones en fitball con peso",
+   "aliases": [
+    "extensiones lumbares en pelota",
+    "weighted ball hyperextension"
+   ],
+   "pattern": "extension_lumbar",
+   "region": "core",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "lower back"
+   ],
+   "secondary": [
+    "glutes",
+    "hamstrings",
+    "middle back"
+   ],
+   "cues": [
+    "Pies firmes en el piso, abiertos para estabilidad",
+    "Sujeta el disco pegado al pecho",
+    "Sube hasta alinear el torso, sin arquear de más"
+   ]
+  },
+  {
+   "srcId": "Barbell_Shrug",
+   "nameEs": "Encogimientos con barra",
+   "aliases": [
+    "shrugs con barra",
+    "barbell shrug"
+   ],
+   "pattern": "encogimientos",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Brazos estirados, sube hombros hacia las orejas",
+    "Sostén un segundo arriba",
+    "No gires los hombros, solo sube y baja"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Shrug",
+   "nameEs": "Encogimientos con mancuernas",
+   "aliases": [
+    "shrugs con mancuernas",
+    "dumbbell shrug"
+   ],
+   "pattern": "encogimientos",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Mancuernas a los costados, palmas hacia ti",
+    "Sube los hombros recto hacia las orejas",
+    "Pausa arriba y baja controlado"
+   ]
+  },
+  {
+   "srcId": "Cable_Shrugs",
+   "nameEs": "Encogimientos en polea",
+   "aliases": [
+    "shrugs en polea",
+    "cable shrugs"
+   ],
+   "pattern": "encogimientos",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Párate cerca de la polea baja, barra al frente",
+    "Eleva los hombros sin doblar los codos",
+    "Pausa arriba y baja lento"
+   ]
+  },
+  {
+   "srcId": "Leverage_Shrug",
+   "nameEs": "Encogimientos en máquina",
+   "aliases": [
+    "shrugs en máquina",
+    "leverage shrug"
+   ],
+   "pattern": "encogimientos",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Colócate centrado entre los mangos",
+    "Sube los hombros sin flexionar los codos",
+    "Controla la bajada hasta estirar el trapecio"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Behind_the_Back_Shrug",
+   "nameEs": "Encogimientos por detrás en Smith",
+   "aliases": [
+    "encogimientos tras espalda",
+    "smith behind the back shrug"
+   ],
+   "pattern": "encogimientos",
+   "region": "superior",
+   "equipment": "smith",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Barra detrás de los glúteos, agarre al ancho de hombros",
+    "Sube los hombros hacia arriba y un poco atrás",
+    "Pausa arriba sin doblar los codos"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Upright_Row",
+   "nameEs": "Remo al mentón en Smith",
+   "aliases": [
+    "remo al cuello en Smith",
+    "smith machine upright row"
+   ],
+   "pattern": "encogimientos",
+   "region": "superior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [
+    "biceps",
+    "middle back",
+    "shoulders"
+   ],
+   "cues": [
+    "Agarre prono al ancho de hombros",
+    "Sube guiando con los codos, barra pegada",
+    "Detente con codos a la altura de los hombros"
+   ]
+  },
+  {
+   "srcId": "Standing_Dumbbell_Upright_Row",
+   "nameEs": "Remo al mentón con mancuernas",
+   "aliases": [
+    "remo al cuello con mancuernas",
+    "dumbbell upright row"
+   ],
+   "pattern": "encogimientos",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [
+    "biceps",
+    "shoulders"
+   ],
+   "cues": [
+    "Mancuernas pegadas al cuerpo al subir",
+    "Codos siempre por encima de las muñecas",
+    "Para cuando los codos lleguen a los hombros"
+   ]
+  },
+  {
+   "srcId": "Upright_Cable_Row",
+   "nameEs": "Remo al mentón en polea",
+   "aliases": [
+    "remo al cuello en polea",
+    "upright cable row"
+   ],
+   "pattern": "encogimientos",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Barra pegada al cuerpo todo el recorrido",
+    "Sube guiando con los codos",
+    "No pases los codos arriba de los hombros"
+   ]
+  },
+  {
+   "srcId": "Upright_Row_-_With_Bands",
+   "nameEs": "Remo al mentón con liga",
+   "aliases": [
+    "remo al cuello con liga",
+    "upright row with bands"
+   ],
+   "pattern": "encogimientos",
+   "region": "superior",
+   "equipment": "ligas",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "traps"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Pisa la liga para tener tensión desde abajo",
+    "Sube guiando con los codos",
+    "Detente con codos a la altura de los hombros"
+   ]
+  },
+  {
+   "srcId": "Barbell_Curl",
+   "nameEs": "Curl con barra",
+   "aliases": [
+    "curl de bíceps con barra",
+    "curl con barra recta",
+    "barbell curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Codos pegados al torso y fijos todo el recorrido",
+    "Sube sin balancear la espalda ni impulsarte",
+    "Baja lento hasta extender casi por completo"
+   ]
+  },
+  {
+   "srcId": "EZ-Bar_Curl",
+   "nameEs": "Curl con barra Z",
+   "aliases": [
+    "curl barra Z",
+    "curl con barra W",
+    "EZ-bar curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "barra_z",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Toma la barra en el agarre ancho de la Z",
+    "Codos fijos a los costados, solo mueve antebrazos",
+    "Controla la bajada sin soltar la tensión"
+   ]
+  },
+  {
+   "srcId": "Close-Grip_EZ_Bar_Curl",
+   "nameEs": "Curl con barra Z agarre cerrado",
+   "aliases": [
+    "curl cerrado con barra Z",
+    "close-grip EZ bar curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "barra_z",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Toma la barra en el agarre interno de la Z",
+    "Codos pegados y quietos, sin mecerte",
+    "Aprieta arriba y baja en 2 a 3 segundos"
+   ]
+  },
+  {
+   "srcId": "Wide-Grip_Standing_Barbell_Curl",
+   "nameEs": "Curl con barra agarre abierto",
+   "aliases": [
+    "curl abierto con barra",
+    "wide-grip barbell curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Agarre más ancho que hombros, palmas al frente",
+    "Codos fijos junto al torso, sin abrirlos",
+    "Sube controlado sin echar el torso atrás"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Bicep_Curl",
+   "nameEs": "Curl con mancuernas",
+   "aliases": [
+    "curl de bíceps con mancuernas",
+    "curl simultáneo",
+    "dumbbell biceps curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Palmas al frente desde abajo, codos pegados",
+    "Sube ambas mancuernas sin balancear el cuerpo",
+    "Baja lento hasta estirar el brazo"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Alternate_Bicep_Curl",
+   "nameEs": "Curl alterno con mancuernas",
+   "aliases": [
+    "curl alterno",
+    "curl con supinación",
+    "alternate dumbbell curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Inicia con palmas hacia ti y gíralas al subir",
+    "Alterna brazos sin girar el torso",
+    "Codo fijo; solo se mueve el antebrazo"
+   ]
+  },
+  {
+   "srcId": "Incline_Dumbbell_Curl",
+   "nameEs": "Curl inclinado con mancuernas",
+   "aliases": [
+    "curl en banco inclinado",
+    "incline dumbbell curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Banco a 45-60°, espalda y cabeza apoyadas",
+    "Brazos colgando; no adelantes los codos",
+    "Baja lento para sentir el estiramiento"
+   ]
+  },
+  {
+   "srcId": "Concentration_Curls",
+   "nameEs": "Curl concentrado",
+   "aliases": [
+    "curl concentrado con mancuerna",
+    "concentration curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Apoya el tríceps en la cara interna del muslo",
+    "Sube sin despegar el brazo de la pierna",
+    "Aprieta arriba y baja hasta extender"
+   ]
+  },
+  {
+   "srcId": "Preacher_Curl",
+   "nameEs": "Curl predicador con barra Z",
+   "aliases": [
+    "curl en banco Scott",
+    "curl Scott",
+    "preacher curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "barra_z",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Axilas pegadas al borde del banco Scott",
+    "No extiendas de golpe al bajar; cuida el codo",
+    "Sube sin despegar los brazos del cojín"
+   ]
+  },
+  {
+   "srcId": "One_Arm_Dumbbell_Preacher_Curl",
+   "nameEs": "Curl predicador con mancuerna a una mano",
+   "aliases": [
+    "curl Scott a una mano",
+    "curl predicador unilateral",
+    "one arm dumbbell preacher curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Brazo completo apoyado en el cojín del banco",
+    "Baja controlado hasta casi extender",
+    "Mantén la muñeca neutra, sin doblarla"
+   ]
+  },
+  {
+   "srcId": "Machine_Preacher_Curls",
+   "nameEs": "Curl predicador en máquina",
+   "aliases": [
+    "máquina de bíceps",
+    "curl en máquina",
+    "machine preacher curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ajusta el asiento: codo alineado con el eje",
+    "Brazos pegados al cojín todo el movimiento",
+    "Baja lento sin dejar caer el peso"
+   ]
+  },
+  {
+   "srcId": "Cable_Preacher_Curl",
+   "nameEs": "Curl predicador en polea",
+   "aliases": [
+    "curl Scott en polea",
+    "cable preacher curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Coloca el banco Scott frente a la polea baja",
+    "Brazos firmes sobre el cojín, sin despegarlos",
+    "Aprieta arriba y controla la bajada"
+   ]
+  },
+  {
+   "srcId": "Spider_Curl",
+   "nameEs": "Curl araña con barra Z",
+   "aliases": [
+    "curl araña",
+    "spider curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "barra_z",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Pecho apoyado en el banco, brazos colgando",
+    "Sube sin llevar los codos hacia adelante",
+    "Aprieta un segundo arriba y baja lento"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Prone_Incline_Curl",
+   "nameEs": "Curl araña con mancuernas",
+   "aliases": [
+    "curl boca abajo en banco inclinado",
+    "prone incline dumbbell curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Pecho en el banco inclinado, brazos verticales",
+    "Codos quietos; solo se mueven los antebrazos",
+    "Aprieta arriba y baja sin balanceo"
+   ]
+  },
+  {
+   "srcId": "Standing_Biceps_Cable_Curl",
+   "nameEs": "Curl en polea baja con barra",
+   "aliases": [
+    "curl en polea",
+    "curl de bíceps en polea",
+    "cable curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Párate cerca de la polea, codos pegados",
+    "Sube sin inclinarte hacia atrás",
+    "Mantén tensión abajo, sin soltar el peso"
+   ]
+  },
+  {
+   "srcId": "Standing_One-Arm_Cable_Curl",
+   "nameEs": "Curl en polea baja a una mano",
+   "aliases": [
+    "curl unilateral en polea",
+    "one-arm cable curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Usa maneral, palma arriba y codo pegado",
+    "Sube sin rotar el torso",
+    "Baja lento hasta extender el brazo"
+   ]
+  },
+  {
+   "srcId": "Overhead_Cable_Curl",
+   "nameEs": "Curl en polea alta",
+   "aliases": [
+    "curl en cruce de poleas",
+    "curl doble bíceps en polea",
+    "overhead cable curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Brazos en cruz a la altura de los hombros",
+    "Lleva las manos a tus orejas sin bajar codos",
+    "Aprieta el bíceps y regresa controlado"
+   ]
+  },
+  {
+   "srcId": "Drag_Curl",
+   "nameEs": "Curl arrastre con barra",
+   "aliases": [
+    "drag curl",
+    "curl pegado al cuerpo"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Lleva los codos hacia atrás al subir",
+    "Arrastra la barra pegada al torso",
+    "No uses impulso de cadera ni espalda"
+   ]
+  },
+  {
+   "srcId": "Zottman_Curl",
+   "nameEs": "Curl Zottman",
+   "aliases": [
+    "curl Zottman con mancuernas",
+    "Zottman curl"
+   ],
+   "pattern": "curl_biceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Sube con palmas arriba y codos pegados",
+    "Arriba gira las palmas hacia abajo",
+    "Baja lento con agarre prono"
+   ]
+  },
+  {
+   "srcId": "Hammer_Curls",
+   "nameEs": "Curl martillo con mancuernas",
+   "aliases": [
+    "curl martillo",
+    "curl neutro",
+    "hammer curl"
+   ],
+   "pattern": "curl_martillo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Palmas viéndose entre sí todo el recorrido",
+    "Codos pegados, sin balancear el torso",
+    "Baja controlado hasta extender"
+   ]
+  },
+  {
+   "srcId": "Cross_Body_Hammer_Curl",
+   "nameEs": "Curl martillo cruzado",
+   "aliases": [
+    "curl martillo al hombro contrario",
+    "cross body hammer curl"
+   ],
+   "pattern": "curl_martillo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Sube la mancuerna hacia el hombro contrario",
+    "Agarre neutro, sin girar la muñeca",
+    "Alterna brazos y baja por el mismo camino"
+   ]
+  },
+  {
+   "srcId": "Cable_Hammer_Curls_-_Rope_Attachment",
+   "nameEs": "Curl martillo en polea con cuerda",
+   "aliases": [
+    "curl martillo con cuerda",
+    "rope hammer curl"
+   ],
+   "pattern": "curl_martillo",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Cuerda en polea baja, palmas enfrentadas",
+    "Codos fijos a los costados",
+    "Separa un poco la cuerda arriba y aprieta"
+   ]
+  },
+  {
+   "srcId": "Incline_Hammer_Curls",
+   "nameEs": "Curl martillo inclinado",
+   "aliases": [
+    "curl martillo en banco inclinado",
+    "incline hammer curl"
+   ],
+   "pattern": "curl_martillo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Espalda pegada al respaldo inclinado",
+    "Agarre neutro y codos atrás, sin adelantarlos",
+    "Baja lento hasta estirar por completo"
+   ]
+  },
+  {
+   "srcId": "Preacher_Hammer_Dumbbell_Curl",
+   "nameEs": "Curl martillo en banco Scott",
+   "aliases": [
+    "curl martillo predicador",
+    "preacher hammer curl"
+   ],
+   "pattern": "curl_martillo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "biceps"
+   ],
+   "secondary": [
+    "forearms"
+   ],
+   "cues": [
+    "Brazos apoyados en el cojín, agarre neutro",
+    "Baja sin bloquear el codo de golpe",
+    "Sube hasta contraer y aprieta un segundo"
+   ]
+  },
+  {
+   "srcId": "Reverse_Barbell_Curl",
+   "nameEs": "Curl inverso con barra",
+   "aliases": [
+    "curl invertido",
+    "curl prono con barra",
+    "reverse barbell curl"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "forearms",
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Agarre prono a ancho de hombros",
+    "Codos fijos y muñecas rectas, sin doblarlas",
+    "Usa menos peso que en el curl normal"
+   ]
+  },
+  {
+   "srcId": "Standing_Dumbbell_Reverse_Curl",
+   "nameEs": "Curl inverso con mancuernas",
+   "aliases": [
+    "curl prono con mancuernas",
+    "reverse dumbbell curl"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "forearms",
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Palmas hacia abajo todo el recorrido",
+    "Codos pegados al torso, sin balanceo",
+    "Muñeca alineada con el antebrazo"
+   ]
+  },
+  {
+   "srcId": "Reverse_Cable_Curl",
+   "nameEs": "Curl inverso en polea",
+   "aliases": [
+    "curl prono en polea",
+    "reverse cable curl"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "forearms",
+    "biceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Barra en polea baja con agarre prono",
+    "Codos fijos; solo se mueven los antebrazos",
+    "Controla la bajada sin soltar tensión"
+   ]
+  },
+  {
+   "srcId": "Seated_Palm-Up_Barbell_Wrist_Curl",
+   "nameEs": "Curl de muñeca con barra",
+   "aliases": [
+    "flexión de muñeca con barra",
+    "curl de muñeca palmas arriba",
+    "barbell wrist curl"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "forearms"
+   ],
+   "secondary": [],
+   "cues": [
+    "Antebrazos sobre los muslos, palmas arriba",
+    "Deja bajar la barra y sube solo con la muñeca",
+    "Movimiento corto y controlado, sin rebote"
+   ]
+  },
+  {
+   "srcId": "Seated_Palms-Down_Barbell_Wrist_Curl",
+   "nameEs": "Curl de muñeca inverso con barra",
+   "aliases": [
+    "extensión de muñeca con barra",
+    "curl de muñeca palmas abajo",
+    "reverse wrist curl"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "forearms"
+   ],
+   "secondary": [],
+   "cues": [
+    "Antebrazos sobre los muslos, palmas abajo",
+    "Sube el dorso de la mano sin mover el brazo",
+    "Usa poco peso y controla la bajada"
+   ]
+  },
+  {
+   "srcId": "Seated_Dumbbell_Palms-Up_Wrist_Curl",
+   "nameEs": "Curl de muñeca con mancuernas",
+   "aliases": [
+    "flexión de muñeca con mancuernas",
+    "dumbbell wrist curl"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "forearms"
+   ],
+   "secondary": [],
+   "cues": [
+    "Muñecas fuera de las rodillas, palmas arriba",
+    "Sube solo flexionando la muñeca",
+    "Baja lento hasta sentir el estiramiento"
+   ]
+  },
+  {
+   "srcId": "Seated_Dumbbell_Palms-Down_Wrist_Curl",
+   "nameEs": "Curl de muñeca inverso con mancuernas",
+   "aliases": [
+    "extensión de muñeca con mancuernas",
+    "dumbbell reverse wrist curl"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "forearms"
+   ],
+   "secondary": [],
+   "cues": [
+    "Antebrazos apoyados en los muslos, palmas abajo",
+    "Eleva los nudillos sin despegar el brazo",
+    "Controla la bajada, sin rebotar"
+   ]
+  },
+  {
+   "srcId": "Cable_Wrist_Curl",
+   "nameEs": "Curl de muñeca en polea",
+   "aliases": [
+    "flexión de muñeca en polea",
+    "cable wrist curl"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "forearms"
+   ],
+   "secondary": [],
+   "cues": [
+    "Sentado frente a la polea baja, palmas arriba",
+    "Antebrazos fijos sobre los muslos",
+    "Sube y baja solo con la muñeca"
+   ]
+  },
+  {
+   "srcId": "Standing_Palms-Up_Barbell_Behind_The_Back_Wrist_Curl",
+   "nameEs": "Curl de muñeca tras la espalda con barra",
+   "aliases": [
+    "curl de muñeca por detrás",
+    "behind the back wrist curl"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "forearms"
+   ],
+   "secondary": [],
+   "cues": [
+    "Barra detrás de los glúteos, brazos extendidos",
+    "Sube la barra solo flexionando las muñecas",
+    "Torso derecho y brazos quietos"
+   ]
+  },
+  {
+   "srcId": "Wrist_Roller",
+   "nameEs": "Rodillo de muñeca",
+   "aliases": [
+    "enrollador de muñeca",
+    "wrist roller"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "forearms"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Brazos al frente a la altura de los hombros",
+    "Enrolla la cuerda girando una muñeca a la vez",
+    "Desenrolla lento, sin dejar caer el peso"
+   ]
+  },
+  {
+   "srcId": "Plate_Pinch",
+   "nameEs": "Pinza con discos",
+   "aliases": [
+    "agarre de pinza",
+    "sostener discos",
+    "plate pinch"
+   ],
+   "pattern": "antebrazo",
+   "region": "superior",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "forearms"
+   ],
+   "secondary": [],
+   "cues": [
+    "Junta dos discos con el lado liso hacia afuera",
+    "Sujeta solo con dedos y pulgar, sin la palma",
+    "Aprieta y aguanta el tiempo indicado"
+   ]
+  },
+  {
+   "srcId": "Triceps_Pushdown",
+   "nameEs": "Jalón de tríceps en polea con barra",
+   "aliases": [
+    "extensión de tríceps en polea",
+    "pushdown",
+    "triceps pushdown"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Codos pegados al torso y fijos",
+    "Extiende por completo sin mover los hombros",
+    "Sube controlado hasta 90° de codo"
+   ]
+  },
+  {
+   "srcId": "Triceps_Pushdown_-_Rope_Attachment",
+   "nameEs": "Jalón de tríceps con cuerda",
+   "aliases": [
+    "extensión de tríceps con cuerda",
+    "pushdown con cuerda",
+    "rope pushdown"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Codos fijos a los costados",
+    "Abre la cuerda hacia afuera al final",
+    "Regresa lento sin despegar los codos"
+   ]
+  },
+  {
+   "srcId": "Triceps_Pushdown_-_V-Bar_Attachment",
+   "nameEs": "Jalón de tríceps con barra V",
+   "aliases": [
+    "extensión de tríceps con V",
+    "V-bar pushdown"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Torso apenas inclinado, codos pegados",
+    "Empuja hacia abajo hasta extender por completo",
+    "No dejes que los codos suban al regresar"
+   ]
+  },
+  {
+   "srcId": "Reverse_Grip_Triceps_Pushdown",
+   "nameEs": "Jalón de tríceps agarre invertido",
+   "aliases": [
+    "extensión de tríceps agarre supino",
+    "reverse grip pushdown"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Agarre supino a ancho de hombros",
+    "Codos pegados; extiende sin encorvarte",
+    "Usa menos peso y controla la subida"
+   ]
+  },
+  {
+   "srcId": "Cable_One_Arm_Tricep_Extension",
+   "nameEs": "Jalón de tríceps a una mano",
+   "aliases": [
+    "extensión de tríceps unilateral en polea",
+    "one arm cable pushdown"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Maneral en polea alta, palma hacia arriba",
+    "Codo fijo al costado durante todo el rango",
+    "Extiende completo y regresa lento"
+   ]
+  },
+  {
+   "srcId": "Cable_Rope_Overhead_Triceps_Extension",
+   "nameEs": "Extensión tras nuca en polea con cuerda",
+   "aliases": [
+    "extensión de tríceps sobre la cabeza en polea",
+    "overhead rope triceps extension"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Codos cerca de la cabeza, apuntando arriba",
+    "Baja la cuerda tras la nuca sin abrir codos",
+    "Abdomen firme; no arquees la espalda"
+   ]
+  },
+  {
+   "srcId": "Standing_Low-Pulley_One-Arm_Triceps_Extension",
+   "nameEs": "Extensión tras nuca en polea a una mano",
+   "aliases": [
+    "extensión de tríceps unilateral en polea baja",
+    "one-arm overhead cable extension"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Brazo vertical junto a la cabeza",
+    "Sujeta el codo con la otra mano",
+    "Baja tras la nuca y extiende sin mover el brazo"
+   ]
+  },
+  {
+   "srcId": "Cable_Lying_Triceps_Extension",
+   "nameEs": "Press francés en polea",
+   "aliases": [
+    "press francés acostado en polea",
+    "cable lying triceps extension"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Acostado frente a la polea baja, brazos verticales",
+    "Baja la barra a la frente doblando solo el codo",
+    "Mantén los codos cerrados, sin abrirlos"
+   ]
+  },
+  {
+   "srcId": "EZ-Bar_Skullcrusher",
+   "nameEs": "Press francés con barra Z",
+   "aliases": [
+    "rompecráneos",
+    "extensión acostado con barra Z",
+    "skull crusher"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "barra_z",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Brazos verticales y codos apuntando al techo",
+    "Baja la barra a la frente sin abrir los codos",
+    "Extiende sin mover los hombros"
+   ]
+  },
+  {
+   "srcId": "Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head",
+   "nameEs": "Press francés tras la cabeza con barra",
+   "aliases": [
+    "press francés detrás de la cabeza",
+    "lying triceps extension behind the head"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Lleva la barra en arco detrás de la cabeza",
+    "Codos cerrados, que no se abran",
+    "Estira bien abajo y extiende sin rebotar"
+   ]
+  },
+  {
+   "srcId": "Incline_Barbell_Triceps_Extension",
+   "nameEs": "Press francés inclinado con barra",
+   "aliases": [
+    "extensión de tríceps en banco inclinado",
+    "incline barbell triceps extension"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Banco a 45°, brazos alineados sobre la cabeza",
+    "Baja la barra en arco detrás de la cabeza",
+    "Codos fijos y cerrados durante todo el rango"
+   ]
+  },
+  {
+   "srcId": "Lying_Dumbbell_Tricep_Extension",
+   "nameEs": "Press francés con mancuernas",
+   "aliases": [
+    "rompecráneos con mancuernas",
+    "dumbbell skull crusher",
+    "lying dumbbell triceps extension"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Palmas enfrentadas y codos apuntando al techo",
+    "Baja las mancuernas junto a las orejas",
+    "Extiende sin mover la parte superior del brazo"
+   ]
+  },
+  {
+   "srcId": "Seated_Triceps_Press",
+   "nameEs": "Extensión tras nuca con mancuerna",
+   "aliases": [
+    "copa de tríceps",
+    "extensión de tríceps sentado",
+    "seated triceps press"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Sentado con respaldo, mancuerna con ambas manos",
+    "Codos cerca de la cabeza, apuntando arriba",
+    "Baja tras la nuca y extiende sin arquear"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_One-Arm_Triceps_Extension",
+   "nameEs": "Extensión tras nuca con mancuerna a una mano",
+   "aliases": [
+    "extensión de tríceps unilateral con mancuerna",
+    "one-arm overhead dumbbell extension"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Brazo vertical pegado a la cabeza",
+    "Baja la mancuerna detrás de la nuca, lento",
+    "Sujeta el codo con la otra mano si lo necesitas"
+   ]
+  },
+  {
+   "srcId": "Tricep_Dumbbell_Kickback",
+   "nameEs": "Patada de tríceps con mancuerna",
+   "aliases": [
+    "patada de tríceps",
+    "kickback de tríceps",
+    "triceps kickback"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Torso inclinado y brazo paralelo al piso",
+    "Extiende el codo sin mover el hombro",
+    "Aprieta arriba y regresa lento a 90°"
+   ]
+  },
+  {
+   "srcId": "Machine_Triceps_Extension",
+   "nameEs": "Extensión de tríceps en máquina",
+   "aliases": [
+    "máquina de tríceps",
+    "machine triceps extension"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ajusta el asiento: codo alineado con el eje",
+    "Brazos fijos en el cojín al extender",
+    "Regresa lento sin que el peso choque"
+   ]
+  },
+  {
+   "srcId": "Standing_Overhead_Barbell_Triceps_Extension",
+   "nameEs": "Extensión tras nuca con barra de pie",
+   "aliases": [
+    "extensión de tríceps con barra sobre la cabeza",
+    "overhead barbell triceps extension"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Agarre cerrado, brazos junto a la cabeza",
+    "Baja la barra tras la nuca sin abrir codos",
+    "Glúteo y abdomen firmes para no arquear"
+   ]
+  },
+  {
+   "srcId": "Body_Tricep_Press",
+   "nameEs": "Extensión de tríceps con peso corporal",
+   "aliases": [
+    "press francés con peso corporal",
+    "extensión de tríceps en barra",
+    "bodyweight triceps extension"
+   ],
+   "pattern": "extension_triceps",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Entre más baja la barra, más difícil",
+    "Cuerpo recto como plancha todo el tiempo",
+    "Lleva la frente hacia la barra doblando codos"
+   ]
+  },
+  {
+   "srcId": "Close-Grip_Barbell_Bench_Press",
+   "nameEs": "Press de banca agarre cerrado",
+   "aliases": [
+    "press cerrado",
+    "press cerrado con barra",
+    "close-grip bench press"
+   ],
+   "pattern": "press_cerrado_triceps",
+   "region": "superior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [
+    "chest",
+    "shoulders"
+   ],
+   "cues": [
+    "Manos a ancho de hombros, no más juntas",
+    "Codos pegados al torso al bajar",
+    "Toca la parte media-baja del pecho y empuja"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Close-Grip_Bench_Press",
+   "nameEs": "Press cerrado en Smith",
+   "aliases": [
+    "press cerrado en máquina Smith",
+    "Smith close-grip bench press"
+   ],
+   "pattern": "press_cerrado_triceps",
+   "region": "superior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [
+    "chest",
+    "shoulders"
+   ],
+   "cues": [
+    "Acomoda el banco para que la barra baje al pecho",
+    "Agarre a ancho de hombros, codos pegados",
+    "Baja controlado y extiende sin rebotar"
+   ]
+  },
+  {
+   "srcId": "Close-Grip_EZ-Bar_Press",
+   "nameEs": "Press cerrado con barra Z",
+   "aliases": [
+    "press cerrado barra Z",
+    "close-grip EZ-bar press"
+   ],
+   "pattern": "press_cerrado_triceps",
+   "region": "superior",
+   "equipment": "barra_z",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [
+    "chest",
+    "shoulders"
+   ],
+   "cues": [
+    "Toma la barra Z en el agarre interno",
+    "Codos pegados; baja a la parte baja del pecho",
+    "Empuja con tríceps sin abrir los codos"
+   ]
+  },
+  {
+   "srcId": "Push-Ups_-_Close_Triceps_Position",
+   "nameEs": "Lagartijas cerradas",
+   "aliases": [
+    "lagartijas diamante",
+    "lagartijas para tríceps",
+    "close-grip push-ups"
+   ],
+   "pattern": "press_cerrado_triceps",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [
+    "chest",
+    "shoulders"
+   ],
+   "cues": [
+    "Manos más juntas que los hombros, bajo el pecho",
+    "Codos pegados al cuerpo al bajar",
+    "Cuerpo recto, sin hundir la cadera"
+   ]
+  },
+  {
+   "srcId": "Dips_-_Triceps_Version",
+   "nameEs": "Fondos en paralelas para tríceps",
+   "aliases": [
+    "fondos para tríceps",
+    "fondos",
+    "triceps dips"
+   ],
+   "pattern": "press_declinado_fondos",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [
+    "chest",
+    "shoulders"
+   ],
+   "cues": [
+    "Torso vertical y codos pegados al cuerpo",
+    "Baja hasta 90° de codo sin forzar el hombro",
+    "Empuja hasta extender sin balancearte"
+   ]
+  },
+  {
+   "srcId": "Bench_Dips",
+   "nameEs": "Fondos en banco",
+   "aliases": [
+    "fondos de tríceps en banco",
+    "fondos entre bancos",
+    "bench dips"
+   ],
+   "pattern": "press_declinado_fondos",
+   "region": "superior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [
+    "chest",
+    "shoulders"
+   ],
+   "cues": [
+    "Manos en el borde del banco, espalda cerca",
+    "Baja hasta 90° de codo sin hundir hombros",
+    "Empuja con tríceps hasta extender"
+   ]
+  },
+  {
+   "srcId": "Dip_Machine",
+   "nameEs": "Fondos en máquina",
+   "aliases": [
+    "máquina de fondos",
+    "fondos sentado en máquina",
+    "dip machine"
+   ],
+   "pattern": "press_declinado_fondos",
+   "region": "superior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [
+    "chest",
+    "shoulders"
+   ],
+   "cues": [
+    "Codos pegados a los costados",
+    "Empuja hacia abajo hasta casi extender",
+    "Regresa lento sin pasar de 90° de codo"
+   ]
+  },
+  {
+   "srcId": "Barbell_Squat",
+   "nameEs": "Sentadilla con barra",
+   "aliases": [
+    "sentadilla libre",
+    "sentadilla trasera",
+    "back squat",
+    "Barbell Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings",
+    "lower back"
+   ],
+   "cues": [
+    "Barra sobre trapecios, pecho arriba y abdomen firme",
+    "Rodillas siguen la línea de las puntas de los pies",
+    "Baja al menos a paralelo sin redondear la espalda"
+   ]
+  },
+  {
+   "srcId": "Front_Barbell_Squat",
+   "nameEs": "Sentadilla frontal con barra",
+   "aliases": [
+    "sentadilla al frente",
+    "front squat",
+    "Front Barbell Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "expert",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Codos altos para que la barra no se ruede",
+    "Torso lo más vertical posible al bajar",
+    "Baja entre las piernas y empuja con todo el pie"
+   ]
+  },
+  {
+   "srcId": "Box_Squat",
+   "nameEs": "Sentadilla al cajón con barra",
+   "aliases": [
+    "sentadilla al banco",
+    "box squat",
+    "Box Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "adductors",
+    "calves",
+    "glutes",
+    "hamstrings",
+    "lower back"
+   ],
+   "cues": [
+    "Lleva la cadera atrás hasta tocar el cajón",
+    "Siéntate controlado, sin rebotar ni relajarte",
+    "Empuja el piso y abre las rodillas al subir"
+   ]
+  },
+  {
+   "srcId": "Bodyweight_Squat",
+   "nameEs": "Sentadilla sin peso",
+   "aliases": [
+    "sentadilla con peso corporal",
+    "air squat",
+    "Bodyweight Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Pies al ancho de hombros, puntas un poco afuera",
+    "Cadera atrás y abajo, pecho arriba",
+    "Talones pegados al piso todo el tiempo"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Squat",
+   "nameEs": "Sentadilla con mancuernas",
+   "aliases": [
+    "sentadilla mancuernas",
+    "dumbbell squat",
+    "Dumbbell Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings",
+    "lower back"
+   ],
+   "cues": [
+    "Mancuernas a los lados con brazos relajados",
+    "Espalda neutra y mirada al frente",
+    "Baja a paralelo y sube empujando con talones"
+   ]
+  },
+  {
+   "srcId": "Goblet_Squat",
+   "nameEs": "Sentadilla goblet",
+   "aliases": [
+    "sentadilla copa",
+    "goblet squat",
+    "Goblet Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "pesa_rusa",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings",
+    "shoulders"
+   ],
+   "cues": [
+    "Sostén la pesa pegada al pecho",
+    "Baja entre tus piernas con el torso erguido",
+    "Usa los codos para abrir las rodillas abajo"
+   ]
+  },
+  {
+   "srcId": "Plie_Dumbbell_Squat",
+   "nameEs": "Sentadilla sumo con mancuerna",
+   "aliases": [
+    "sentadilla plié",
+    "sentadilla sumo",
+    "Plie Dumbbell Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "adductors",
+    "glutes",
+    "hamstrings",
+    "calves",
+    "abdominals"
+   ],
+   "cues": [
+    "Pies más abiertos que hombros, puntas afuera",
+    "Rodillas apuntan hacia las puntas al bajar",
+    "Mancuerna colgando al centro, torso erguido"
+   ]
+  },
+  {
+   "srcId": "Wide_Stance_Barbell_Squat",
+   "nameEs": "Sentadilla sumo con barra",
+   "aliases": [
+    "sentadilla abierta con barra",
+    "wide stance squat",
+    "Wide Stance Barbell Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "adductors",
+    "glutes",
+    "hamstrings",
+    "calves",
+    "lower back"
+   ],
+   "cues": [
+    "Pies bien abiertos y puntas hacia afuera",
+    "Empuja las rodillas hacia afuera al bajar",
+    "Pecho arriba y baja controlado a paralelo"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Squat",
+   "nameEs": "Sentadilla en Smith",
+   "aliases": [
+    "sentadilla en multipower",
+    "smith squat",
+    "Smith Machine Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings",
+    "lower back"
+   ],
+   "cues": [
+    "Pies un poco adelante de la barra",
+    "Baja controlado con la espalda neutra",
+    "Empuja con todo el pie sin bloquear rodillas"
+   ]
+  },
+  {
+   "srcId": "Chair_Squat",
+   "nameEs": "Sentadilla en Smith con pies adelante",
+   "aliases": [
+    "sentadilla silla en Smith",
+    "Chair Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Pies unos 40 cm adelante de la barra",
+    "Baja como si te sentaras en una silla",
+    "Empuja con talones y aprieta glúteo arriba"
+   ]
+  },
+  {
+   "srcId": "Hack_Squat",
+   "nameEs": "Sentadilla hack",
+   "aliases": [
+    "hack",
+    "hack squat",
+    "Hack Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Espalda y hombros pegados al respaldo",
+    "Baja profundo sin despegar los talones",
+    "No bloquees las rodillas al subir"
+   ]
+  },
+  {
+   "srcId": "Narrow_Stance_Hack_Squats",
+   "nameEs": "Sentadilla hack con pies juntos",
+   "aliases": [
+    "hack pies cerrados",
+    "narrow hack squat",
+    "Narrow Stance Hack Squats"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Pies juntos al centro de la plataforma",
+    "Rodillas al frente, sin que se cierren",
+    "Baja controlado sin despegar los talones"
+   ]
+  },
+  {
+   "srcId": "Leg_Press",
+   "nameEs": "Prensa",
+   "aliases": [
+    "prensa de pierna",
+    "prensa 45",
+    "leg press",
+    "Leg Press"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Pies al ancho de hombros a media plataforma",
+    "Baja sin que la cadera se despegue del asiento",
+    "No bloquees las rodillas arriba"
+   ]
+  },
+  {
+   "srcId": "Narrow_Stance_Leg_Press",
+   "nameEs": "Prensa con pies juntos",
+   "aliases": [
+    "prensa pies cerrados",
+    "narrow leg press",
+    "Narrow Stance Leg Press"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Pies juntos al centro de la plataforma",
+    "Baja hasta donde la cadera no se despegue",
+    "Empuja con todo el pie sin bloquear rodillas"
+   ]
+  },
+  {
+   "srcId": "Freehand_Jump_Squat",
+   "nameEs": "Sentadilla con salto",
+   "aliases": [
+    "sentadilla saltando",
+    "jump squat",
+    "Freehand Jump Squat"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Baja a paralelo con el pecho arriba",
+    "Salta explosivo extendiendo cadera y rodillas",
+    "Aterriza suave con las rodillas flexionadas"
+   ]
+  },
+  {
+   "srcId": "Squats_-_With_Bands",
+   "nameEs": "Sentadilla con liga",
+   "aliases": [
+    "sentadilla con banda",
+    "band squat",
+    "Squats - With Bands"
+   ],
+   "pattern": "sentadilla",
+   "region": "inferior",
+   "equipment": "ligas",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings",
+    "lower back"
+   ],
+   "cues": [
+    "Pisa la liga al centro, pies al ancho de hombros",
+    "Sostén la liga a la altura de los hombros",
+    "Baja controlado y sube venciendo la tensión"
+   ]
+  },
+  {
+   "srcId": "Barbell_Lunge",
+   "nameEs": "Desplantes con barra",
+   "aliases": [
+    "zancadas con barra",
+    "lunges",
+    "Barbell Lunge"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Da un paso largo y baja la rodilla de atrás",
+    "Rodilla de adelante alineada con el pie",
+    "Regresa empujando con el talón delantero"
+   ]
+  },
+  {
+   "srcId": "Barbell_Walking_Lunge",
+   "nameEs": "Desplantes caminando con barra",
+   "aliases": [
+    "zancadas caminando con barra",
+    "walking lunge",
+    "Barbell Walking Lunge"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Torso erguido y abdomen firme todo el tiempo",
+    "Rodilla de atrás casi roza el piso",
+    "Avanza empujando con el talón de adelante"
+   ]
+  },
+  {
+   "srcId": "Bodyweight_Walking_Lunge",
+   "nameEs": "Desplantes caminando sin peso",
+   "aliases": [
+    "zancadas caminando",
+    "walking lunge",
+    "Bodyweight Walking Lunge"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Manos en la cadera y torso erguido",
+    "Baja hasta que la rodilla de atrás casi toque",
+    "Pasos largos para cargar más el glúteo"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Lunges",
+   "nameEs": "Desplantes con mancuernas",
+   "aliases": [
+    "zancadas con mancuernas",
+    "dumbbell lunges",
+    "Dumbbell Lunges"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Mancuernas a los lados y hombros atrás",
+    "Paso al frente y baja en vertical",
+    "Regresa empujando con el talón delantero"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Rear_Lunge",
+   "nameEs": "Desplantes hacia atrás con mancuernas",
+   "aliases": [
+    "zancada inversa",
+    "reverse lunge",
+    "Dumbbell Rear Lunge"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Da el paso hacia atrás y baja controlado",
+    "Carga el peso en el pie de adelante",
+    "Sube empujando con el talón delantero"
+   ]
+  },
+  {
+   "srcId": "Elevated_Back_Lunge",
+   "nameEs": "Desplante hacia atrás en déficit con barra",
+   "aliases": [
+    "zancada inversa en déficit",
+    "deficit reverse lunge",
+    "Elevated Back Lunge"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Párate sobre un step o disco bajo",
+    "Paso atrás y baja hasta casi tocar con la rodilla",
+    "Empuja con el pie de arriba para volver"
+   ]
+  },
+  {
+   "srcId": "Split_Squat_with_Dumbbells",
+   "nameEs": "Sentadilla búlgara con mancuernas",
+   "aliases": [
+    "búlgara",
+    "bulgarian split squat",
+    "Split Squat with Dumbbells"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Empeine trasero apoyado en el banco",
+    "Baja en vertical, peso en el pie de adelante",
+    "Inclina un poco el torso para cargar glúteo"
+   ]
+  },
+  {
+   "srcId": "One_Leg_Barbell_Squat",
+   "nameEs": "Sentadilla búlgara con barra",
+   "aliases": [
+    "búlgara con barra",
+    "bulgarian split squat",
+    "One Leg Barbell Squat"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "expert",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Barra en trapecios y pie trasero en el banco",
+    "Baja controlado sin perder el equilibrio",
+    "Rodilla delantera alineada con el pie"
+   ]
+  },
+  {
+   "srcId": "Smith_Single-Leg_Split_Squat",
+   "nameEs": "Sentadilla búlgara en Smith",
+   "aliases": [
+    "búlgara en multipower",
+    "smith split squat",
+    "Smith Single-Leg Split Squat"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Pie trasero sobre el banco detrás de ti",
+    "Pie delantero un poco adelante de la barra",
+    "Baja en vertical y sube con el talón delantero"
+   ]
+  },
+  {
+   "srcId": "Suspended_Split_Squat",
+   "nameEs": "Sentadilla búlgara en TRX",
+   "aliases": [
+    "búlgara suspendida",
+    "suspended split squat",
+    "Suspended Split Squat"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "otro",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "abductors",
+    "adductors",
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Pie trasero en la agarradera del TRX",
+    "Baja controlado, peso en el talón de adelante",
+    "Pecho arriba y abdomen firme para no tambalear"
+   ]
+  },
+  {
+   "srcId": "Lunge_Sprint",
+   "nameEs": "Desplantes en Smith",
+   "aliases": [
+    "zancadas en multipower",
+    "split squat en Smith",
+    "Lunge Sprint"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Un pie adelante y otro atrás bajo la barra",
+    "Baja la rodilla de atrás casi al piso",
+    "Sube con fuerza sin despegar el pie delantero"
+   ]
+  },
+  {
+   "srcId": "Barbell_Side_Split_Squat",
+   "nameEs": "Desplante lateral con barra",
+   "aliases": [
+    "zancada lateral",
+    "side lunge",
+    "Barbell Side Split Squat"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "glutes",
+    "adductors",
+    "hamstrings",
+    "calves",
+    "lower back"
+   ],
+   "cues": [
+    "Pies bien abiertos, punta activa hacia afuera",
+    "Baja hacia un lado con la otra pierna estirada",
+    "Cadera atrás y talón apoyado al bajar"
+   ]
+  },
+  {
+   "srcId": "Barbell_Step_Ups",
+   "nameEs": "Subidas al cajón con barra",
+   "aliases": [
+    "step up con barra",
+    "subidas al banco",
+    "Barbell Step Ups"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "glutes",
+    "hamstrings",
+    "calves"
+   ],
+   "cues": [
+    "Pie completo sobre el cajón antes de subir",
+    "Sube empujando con el talón de arriba",
+    "No te impulses con la pierna de abajo"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Step_Ups",
+   "nameEs": "Subidas al cajón con mancuernas",
+   "aliases": [
+    "step up con mancuernas",
+    "subidas al banco",
+    "Dumbbell Step Ups"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Apoya todo el pie sobre el cajón",
+    "Sube con la pierna de arriba, sin rebote",
+    "Baja lento controlando el descenso"
+   ]
+  },
+  {
+   "srcId": "Step-up_with_Knee_Raise",
+   "nameEs": "Subida al cajón con elevación de rodilla",
+   "aliases": [
+    "step up con rodilla",
+    "Step-up with Knee Raise"
+   ],
+   "pattern": "zancada_unilateral",
+   "region": "inferior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "hamstrings",
+    "quadriceps"
+   ],
+   "cues": [
+    "Sube extendiendo cadera y rodilla de apoyo",
+    "Eleva la otra rodilla a la altura de la cadera",
+    "Baja controlado sin dejarte caer"
+   ]
+  },
+  {
+   "srcId": "Leg_Extensions",
+   "nameEs": "Extensiones de cuádriceps",
+   "aliases": [
+    "extensión de pierna",
+    "silla de cuádriceps",
+    "leg extension",
+    "Leg Extensions"
+   ],
+   "pattern": "extension_rodilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Rodilla alineada con el eje de la máquina",
+    "Rodillo justo arriba del tobillo",
+    "Aprieta arriba y baja lento sin soltar"
+   ]
+  },
+  {
+   "srcId": "Single-Leg_Leg_Extension",
+   "nameEs": "Extensión de cuádriceps a una pierna",
+   "aliases": [
+    "extensión unilateral",
+    "single leg extension",
+    "Single-Leg Leg Extension"
+   ],
+   "pattern": "extension_rodilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ajusta el eje de la máquina a tu rodilla",
+    "Extiende por completo y pausa arriba",
+    "Baja lento sin dejar caer el peso"
+   ]
+  },
+  {
+   "srcId": "Weighted_Sissy_Squat",
+   "nameEs": "Sentadilla sissy con disco",
+   "aliases": [
+    "sissy squat",
+    "sentadilla sissy",
+    "Weighted Sissy Squat"
+   ],
+   "pattern": "extension_rodilla",
+   "region": "inferior",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "expert",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Sujétate con una mano y sube a puntas",
+    "Lleva rodillas al frente con cadera alineada",
+    "Baja solo hasta donde controles la rodilla"
+   ]
+  },
+  {
+   "srcId": "Lying_Leg_Curls",
+   "nameEs": "Curl femoral acostado",
+   "aliases": [
+    "femoral acostado",
+    "leg curl",
+    "Lying Leg Curls"
+   ],
+   "pattern": "flexion_rodilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [],
+   "cues": [
+    "Rodillas justo fuera del borde del banco",
+    "Cadera pegada al banco, no la levantes",
+    "Flexiona fuerte y baja en 2 a 3 segundos"
+   ]
+  },
+  {
+   "srcId": "Seated_Leg_Curl",
+   "nameEs": "Curl femoral sentado",
+   "aliases": [
+    "femoral sentado",
+    "seated leg curl",
+    "Seated Leg Curl"
+   ],
+   "pattern": "flexion_rodilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ajusta el tope firme sobre los muslos",
+    "Rodilla alineada con el eje de la máquina",
+    "Lleva talones abajo y atrás, regresa lento"
+   ]
+  },
+  {
+   "srcId": "Standing_Leg_Curl",
+   "nameEs": "Curl femoral de pie",
+   "aliases": [
+    "femoral de pie a una pierna",
+    "standing leg curl",
+    "Standing Leg Curl"
+   ],
+   "pattern": "flexion_rodilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [],
+   "cues": [
+    "Muslo apoyado y cadera quieta",
+    "Flexiona llevando el talón hacia el glúteo",
+    "Baja lento hasta estirar casi completo"
+   ]
+  },
+  {
+   "srcId": "Ball_Leg_Curl",
+   "nameEs": "Curl femoral en fitball",
+   "aliases": [
+    "curl femoral con pelota",
+    "ball leg curl",
+    "Ball Leg Curl"
+   ],
+   "pattern": "flexion_rodilla",
+   "region": "inferior",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "calves",
+    "glutes"
+   ],
+   "cues": [
+    "Talones sobre la pelota y cadera arriba",
+    "Jala la pelota hacia ti sin bajar la cadera",
+    "Regresa lento manteniendo el puente"
+   ]
+  },
+  {
+   "srcId": "Glute_Ham_Raise",
+   "nameEs": "Glute ham raise en máquina",
+   "aliases": [
+    "GHD",
+    "elevación glúteo femoral",
+    "Glute Ham Raise"
+   ],
+   "pattern": "flexion_rodilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "calves",
+    "glutes"
+   ],
+   "cues": [
+    "Rodillas justo detrás del cojín",
+    "Empuja las puntas contra la plataforma",
+    "Sube con el cuerpo recto de rodilla a cabeza"
+   ]
+  },
+  {
+   "srcId": "Natural_Glute_Ham_Raise",
+   "nameEs": "Curl nórdico",
+   "aliases": [
+    "femoral nórdico",
+    "nordic curl",
+    "Natural Glute Ham Raise"
+   ],
+   "pattern": "flexion_rodilla",
+   "region": "inferior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "lower back"
+   ],
+   "cues": [
+    "Tobillos bien sujetos bajo el rodillo",
+    "Cuerpo recto de rodillas a cabeza",
+    "Baja lo más lento que puedas"
+   ]
+  },
+  {
+   "srcId": "Seated_Band_Hamstring_Curl",
+   "nameEs": "Curl femoral sentado con liga",
+   "aliases": [
+    "femoral con liga",
+    "band leg curl",
+    "Seated Band Hamstring Curl"
+   ],
+   "pattern": "flexion_rodilla",
+   "region": "inferior",
+   "equipment": "ligas",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ancla la liga baja frente al banco",
+    "Lleva los talones hacia el banco",
+    "Regresa lento sin que la liga te jale"
+   ]
+  },
+  {
+   "srcId": "Romanian_Deadlift",
+   "nameEs": "Peso muerto rumano con barra",
+   "aliases": [
+    "peso muerto rumano",
+    "RDL",
+    "Romanian Deadlift"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "lower back"
+   ],
+   "cues": [
+    "Rodillas semiflexionadas y fijas",
+    "Lleva la cadera atrás con la barra pegada",
+    "Baja hasta sentir el femoral, espalda neutra"
+   ]
+  },
+  {
+   "srcId": "Stiff-Legged_Barbell_Deadlift",
+   "nameEs": "Peso muerto piernas rígidas con barra",
+   "aliases": [
+    "peso muerto piernas rectas",
+    "stiff leg deadlift",
+    "Stiff-Legged Barbell Deadlift"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "glutes",
+    "lower back"
+   ],
+   "cues": [
+    "Piernas casi rectas, rodillas sin moverse",
+    "Baja la barra pegada a las piernas",
+    "Espalda neutra, no redondees para bajar más"
+   ]
+  },
+  {
+   "srcId": "Stiff-Legged_Dumbbell_Deadlift",
+   "nameEs": "Peso muerto rumano con mancuernas",
+   "aliases": [
+    "peso muerto piernas rígidas con mancuernas",
+    "dumbbell RDL",
+    "Stiff-Legged Dumbbell Deadlift"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "mancuerna",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "glutes",
+    "lower back"
+   ],
+   "cues": [
+    "Mancuernas pegadas a los muslos al bajar",
+    "Cadera atrás, rodillas apenas flexionadas",
+    "Sube apretando glúteo sin echarte atrás"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Stiff-Legged_Deadlift",
+   "nameEs": "Peso muerto rumano en Smith",
+   "aliases": [
+    "rumano en multipower",
+    "smith RDL",
+    "Smith Machine Stiff-Legged Deadlift"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "smith",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "glutes",
+    "lower back"
+   ],
+   "cues": [
+    "Barra pegada a los muslos todo el recorrido",
+    "Empuja la cadera atrás, rodillas semiflexionadas",
+    "Espalda neutra y sube apretando glúteo"
+   ]
+  },
+  {
+   "srcId": "Kettlebell_One-Legged_Deadlift",
+   "nameEs": "Peso muerto a una pierna con pesa rusa",
+   "aliases": [
+    "peso muerto unilateral",
+    "single leg deadlift",
+    "Kettlebell One-Legged Deadlift"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "pesa_rusa",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "glutes",
+    "lower back"
+   ],
+   "cues": [
+    "Rodilla de apoyo un poco flexionada",
+    "Cadera cuadrada, no la abras al bajar",
+    "La pierna libre sube en línea con el torso"
+   ]
+  },
+  {
+   "srcId": "Good_Morning",
+   "nameEs": "Buenos días con barra",
+   "aliases": [
+    "good morning",
+    "Good Morning"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "abdominals",
+    "glutes",
+    "lower back"
+   ],
+   "cues": [
+    "Barra en trapecios y rodillas semiflexionadas",
+    "Lleva la cadera atrás con espalda neutra",
+    "Baja hasta casi paralelo sin redondear"
+   ]
+  },
+  {
+   "srcId": "Band_Good_Morning",
+   "nameEs": "Buenos días con liga",
+   "aliases": [
+    "good morning con liga",
+    "band good morning",
+    "Band Good Morning"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "ligas",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "glutes",
+    "lower back"
+   ],
+   "cues": [
+    "Pisa la liga y pásala por detrás del cuello",
+    "Bisagra de cadera con espalda neutra",
+    "Sube apretando glúteo hasta quedar derecho"
+   ]
+  },
+  {
+   "srcId": "Pull_Through",
+   "nameEs": "Pull through en polea",
+   "aliases": [
+    "jalón entre piernas",
+    "cable pull through",
+    "Pull Through"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "hamstrings",
+    "lower back"
+   ],
+   "cues": [
+    "De espaldas a la polea, cuerda entre piernas",
+    "Lleva la cadera atrás con brazos estirados",
+    "Sube con glúteo, no jales con los brazos"
+   ]
+  },
+  {
+   "srcId": "Sumo_Deadlift",
+   "nameEs": "Peso muerto sumo",
+   "aliases": [
+    "peso muerto sumo con barra",
+    "sumo deadlift",
+    "Sumo Deadlift"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "adductors",
+    "forearms",
+    "glutes",
+    "lower back",
+    "middle back",
+    "quadriceps",
+    "traps"
+   ],
+   "cues": [
+    "Pies muy abiertos y puntas hacia afuera",
+    "Brazos por dentro de las piernas, pecho arriba",
+    "Empuja el piso abriendo rodillas, barra pegada"
+   ]
+  },
+  {
+   "srcId": "Trap_Bar_Deadlift",
+   "nameEs": "Peso muerto con barra hexagonal",
+   "aliases": [
+    "peso muerto trap bar",
+    "barra hex",
+    "Trap Bar Deadlift"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Párate al centro y toma las agarraderas",
+    "Cadera abajo, pecho arriba y espalda neutra",
+    "Empuja el piso con los talones para subir"
+   ]
+  },
+  {
+   "srcId": "One-Arm_Kettlebell_Swings",
+   "nameEs": "Swing con pesa rusa a una mano",
+   "aliases": [
+    "kettlebell swing",
+    "columpio con pesa rusa",
+    "One-Arm Kettlebell Swings"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "pesa_rusa",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "calves",
+    "glutes",
+    "lower back",
+    "shoulders"
+   ],
+   "cues": [
+    "Es bisagra: cadera atrás, no sentadilla",
+    "Impulsa la pesa con un golpe de cadera",
+    "Brazo relajado, la pesa llega a la altura del pecho"
+   ]
+  },
+  {
+   "srcId": "Kneeling_Squat",
+   "nameEs": "Sentadilla de rodillas con barra",
+   "aliases": [
+    "kneeling squat",
+    "hip thrust de rodillas",
+    "Kneeling Squat"
+   ],
+   "pattern": "bisagra_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "abdominals",
+    "hamstrings",
+    "lower back"
+   ],
+   "cues": [
+    "Rodillas acolchadas y barra firme en trapecios",
+    "Lleva la cadera atrás hasta tocar los talones",
+    "Empuja la cadera al frente apretando glúteo"
+   ]
+  },
+  {
+   "srcId": "Reverse_Hyperextension",
+   "nameEs": "Hiperextensión inversa",
+   "aliases": [
+    "reverse hyper",
+    "Reverse Hyperextension"
+   ],
+   "pattern": "extension_lumbar",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "hamstrings"
+   ],
+   "secondary": [
+    "calves",
+    "glutes"
+   ],
+   "cues": [
+    "Cadera al borde del cojín, piernas colgando",
+    "Sube las piernas con glúteo hasta la horizontal",
+    "No hiperextiendas ni balancees al bajar"
+   ]
+  },
+  {
+   "srcId": "Barbell_Hip_Thrust",
+   "nameEs": "Hip thrust con barra",
+   "aliases": [
+    "empuje de cadera",
+    "hip thrust",
+    "Barbell Hip Thrust"
+   ],
+   "pattern": "empuje_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "calves",
+    "hamstrings"
+   ],
+   "cues": [
+    "Escápulas en el borde del banco, barra en cadera",
+    "Mentón al pecho y costillas abajo al subir",
+    "Aprieta glúteo arriba con tibias verticales"
+   ]
+  },
+  {
+   "srcId": "Barbell_Glute_Bridge",
+   "nameEs": "Puente de glúteo con barra",
+   "aliases": [
+    "glute bridge con barra",
+    "puente con barra",
+    "Barbell Glute Bridge"
+   ],
+   "pattern": "empuje_cadera",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "calves",
+    "hamstrings"
+   ],
+   "cues": [
+    "Espalda en el piso y barra sobre la cadera",
+    "Empuja con talones hasta alinear rodilla y cadera",
+    "Pausa arriba apretando glúteo"
+   ]
+  },
+  {
+   "srcId": "Butt_Lift_Bridge",
+   "nameEs": "Puente de glúteo",
+   "aliases": [
+    "puente de cadera",
+    "glute bridge",
+    "Butt Lift Bridge"
+   ],
+   "pattern": "empuje_cadera",
+   "region": "inferior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "hamstrings"
+   ],
+   "cues": [
+    "Pies al ancho de hombros, cerca del glúteo",
+    "Sube empujando con los talones",
+    "Aprieta un segundo arriba sin arquear la espalda"
+   ]
+  },
+  {
+   "srcId": "Single_Leg_Glute_Bridge",
+   "nameEs": "Puente de glúteo a una pierna",
+   "aliases": [
+    "puente unilateral",
+    "single leg glute bridge",
+    "Single Leg Glute Bridge"
+   ],
+   "pattern": "empuje_cadera",
+   "region": "inferior",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "hamstrings"
+   ],
+   "cues": [
+    "Una rodilla al pecho y la otra flexionada",
+    "Empuja con el talón de apoyo",
+    "Cadera nivelada, sin que se caiga un lado"
+   ]
+  },
+  {
+   "srcId": "Hip_Lift_with_Band",
+   "nameEs": "Puente de glúteo con liga",
+   "aliases": [
+    "hip thrust con liga",
+    "Hip Lift with Band"
+   ],
+   "pattern": "empuje_cadera",
+   "region": "inferior",
+   "equipment": "ligas",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "calves",
+    "hamstrings"
+   ],
+   "cues": [
+    "Liga anclada al rack, cruzando tu cadera",
+    "Empuja con talones contra la tensión",
+    "Aprieta glúteo arriba y baja controlado"
+   ]
+  },
+  {
+   "srcId": "Physioball_Hip_Bridge",
+   "nameEs": "Hip thrust en fitball",
+   "aliases": [
+    "puente en pelota",
+    "Physioball Hip Bridge"
+   ],
+   "pattern": "empuje_cadera",
+   "region": "inferior",
+   "equipment": "otro",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "hamstrings"
+   ],
+   "cues": [
+    "Espalda alta sobre la pelota y pies firmes",
+    "Sube la cadera hasta quedar como mesa",
+    "Controla la pelota para que no ruede"
+   ]
+  },
+  {
+   "srcId": "One-Legged_Cable_Kickback",
+   "nameEs": "Patada de glúteo en polea",
+   "aliases": [
+    "patada en polea",
+    "cable kickback",
+    "One-Legged Cable Kickback"
+   ],
+   "pattern": "patada_gluteo",
+   "region": "inferior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "hamstrings"
+   ],
+   "cues": [
+    "Tobillera en polea baja y abdomen firme",
+    "Patea atrás con glúteo, sin arquear la lumbar",
+    "Aprieta arriba y regresa lento"
+   ]
+  },
+  {
+   "srcId": "Glute_Kickback",
+   "nameEs": "Patada de glúteo en cuadrupedia",
+   "aliases": [
+    "patada de burro",
+    "donkey kick",
+    "Glute Kickback"
+   ],
+   "pattern": "patada_gluteo",
+   "region": "inferior",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "hamstrings"
+   ],
+   "cues": [
+    "Manos bajo hombros y rodilla a 90°",
+    "Sube el talón hacia el techo con glúteo",
+    "No arquees la espalda baja al subir"
+   ]
+  },
+  {
+   "srcId": "Hip_Extension_with_Bands",
+   "nameEs": "Patada de glúteo de pie con liga",
+   "aliases": [
+    "extensión de cadera con liga",
+    "band kickback",
+    "Hip Extension with Bands"
+   ],
+   "pattern": "patada_gluteo",
+   "region": "inferior",
+   "equipment": "ligas",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "hamstrings"
+   ],
+   "cues": [
+    "Liga en el tobillo anclada al frente",
+    "Lleva la pierna atrás con la rodilla estirada",
+    "Torso quieto, no te inclines para compensar"
+   ]
+  },
+  {
+   "srcId": "Leg_Lift",
+   "nameEs": "Patada de glúteo de pie con tobillera",
+   "aliases": [
+    "patada trasera con tobillera",
+    "Leg Lift"
+   ],
+   "pattern": "patada_gluteo",
+   "region": "inferior",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "glutes"
+   ],
+   "secondary": [
+    "hamstrings"
+   ],
+   "cues": [
+    "Sujétate de un soporte con el torso derecho",
+    "Lleva la pierna atrás apretando glúteo",
+    "No arquees la espalda baja al subir"
+   ]
+  },
+  {
+   "srcId": "Thigh_Abductor",
+   "nameEs": "Abductores en máquina",
+   "aliases": [
+    "máquina de abductores",
+    "abducción de cadera",
+    "Thigh Abductor"
+   ],
+   "pattern": "abduccion_cadera",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abductors"
+   ],
+   "secondary": [
+    "glutes"
+   ],
+   "cues": [
+    "Espalda pegada al respaldo y torso quieto",
+    "Abre las piernas con control, sin rebote",
+    "Pausa afuera y regresa lento"
+   ]
+  },
+  {
+   "srcId": "Band_Hip_Adductions",
+   "nameEs": "Abducción de cadera de pie con liga",
+   "aliases": [
+    "patada lateral con liga",
+    "band hip abduction",
+    "Band Hip Adductions"
+   ],
+   "pattern": "abduccion_cadera",
+   "region": "inferior",
+   "equipment": "ligas",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abductors"
+   ],
+   "secondary": [
+    "glutes"
+   ],
+   "cues": [
+    "Liga en el tobillo, anclada del lado contrario",
+    "Abre la pierna al lado con la rodilla estirada",
+    "Torso derecho, no te inclines al subir"
+   ]
+  },
+  {
+   "srcId": "Monster_Walk",
+   "nameEs": "Caminata de monstruo con liga",
+   "aliases": [
+    "monster walk",
+    "caminata con liga",
+    "Monster Walk"
+   ],
+   "pattern": "abduccion_cadera",
+   "region": "inferior",
+   "equipment": "ligas",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abductors"
+   ],
+   "secondary": [
+    "glutes"
+   ],
+   "cues": [
+    "Liga en rodillas o tobillos, en semisentadilla",
+    "Pasos cortos sin juntar los pies",
+    "Rodillas hacia afuera todo el tiempo"
+   ]
+  },
+  {
+   "srcId": "Thigh_Adductor",
+   "nameEs": "Aductores en máquina",
+   "aliases": [
+    "máquina de aductores",
+    "aducción de cadera",
+    "Thigh Adductor"
+   ],
+   "pattern": "aduccion_cadera",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "adductors"
+   ],
+   "secondary": [
+    "glutes",
+    "hamstrings"
+   ],
+   "cues": [
+    "Espalda pegada al respaldo",
+    "Cierra las piernas con control y aprieta",
+    "Abre lento sin pasar tu rango cómodo"
+   ]
+  },
+  {
+   "srcId": "Cable_Hip_Adduction",
+   "nameEs": "Aducción de cadera en polea",
+   "aliases": [
+    "aductor en polea",
+    "cable hip adduction",
+    "Cable Hip Adduction"
+   ],
+   "pattern": "aduccion_cadera",
+   "region": "inferior",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "adductors"
+   ],
+   "secondary": [],
+   "cues": [
+    "Tobillera en la pierna cercana a la polea",
+    "Cruza la pierna al frente de la de apoyo",
+    "Torso derecho y regresa lento"
+   ]
+  },
+  {
+   "srcId": "Standing_Calf_Raises",
+   "nameEs": "Pantorrilla de pie en máquina",
+   "aliases": [
+    "elevación de talones de pie",
+    "standing calf raise",
+    "Standing Calf Raises"
+   ],
+   "pattern": "pantorrilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "calves"
+   ],
+   "secondary": [],
+   "cues": [
+    "Puntas en el borde y talones al aire",
+    "Baja hasta estirar por completo la pantorrilla",
+    "Sube lo más alto posible y pausa"
+   ]
+  },
+  {
+   "srcId": "Seated_Calf_Raise",
+   "nameEs": "Pantorrilla sentado en máquina",
+   "aliases": [
+    "elevación de talones sentado",
+    "seated calf raise",
+    "Seated Calf Raise"
+   ],
+   "pattern": "pantorrilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "calves"
+   ],
+   "secondary": [],
+   "cues": [
+    "Cojín sobre los muslos, cerca de las rodillas",
+    "Baja el talón hasta estirar por completo",
+    "Sube a puntas y aprieta un segundo"
+   ]
+  },
+  {
+   "srcId": "Calf_Press_On_The_Leg_Press_Machine",
+   "nameEs": "Pantorrilla en prensa",
+   "aliases": [
+    "pantorrilla en leg press",
+    "calf press",
+    "Calf Press On The Leg Press Machine"
+   ],
+   "pattern": "pantorrilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "calves"
+   ],
+   "secondary": [],
+   "cues": [
+    "Solo las puntas en el borde de la plataforma",
+    "Rodillas extendidas, sin bloquearlas",
+    "Estira completo abajo y empuja hasta arriba"
+   ]
+  },
+  {
+   "srcId": "Smith_Machine_Calf_Raise",
+   "nameEs": "Pantorrilla de pie en Smith",
+   "aliases": [
+    "pantorrilla en multipower",
+    "smith calf raise",
+    "Smith Machine Calf Raise"
+   ],
+   "pattern": "pantorrilla",
+   "region": "inferior",
+   "equipment": "smith",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "calves"
+   ],
+   "secondary": [],
+   "cues": [
+    "Puntas sobre un step o disco firme",
+    "Barra en trapecios y cuerpo derecho",
+    "Sube a puntas y baja lento al estiramiento"
+   ]
+  },
+  {
+   "srcId": "Standing_Dumbbell_Calf_Raise",
+   "nameEs": "Pantorrilla de pie con mancuernas",
+   "aliases": [
+    "elevación de talones con mancuernas",
+    "Standing Dumbbell Calf Raise"
+   ],
+   "pattern": "pantorrilla",
+   "region": "inferior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "calves"
+   ],
+   "secondary": [],
+   "cues": [
+    "Puntas sobre un step y talones libres",
+    "Rodillas casi rectas en todo el rango",
+    "Pausa arriba y abajo, sin rebotar"
+   ]
+  },
+  {
+   "srcId": "Standing_Barbell_Calf_Raise",
+   "nameEs": "Pantorrilla de pie con barra",
+   "aliases": [
+    "elevación de talones con barra",
+    "Standing Barbell Calf Raise"
+   ],
+   "pattern": "pantorrilla",
+   "region": "inferior",
+   "equipment": "barra",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "calves"
+   ],
+   "secondary": [],
+   "cues": [
+    "Barra en trapecios y abdomen firme",
+    "Sube a puntas lo más alto posible",
+    "Baja controlado sin perder el equilibrio"
+   ]
+  },
+  {
+   "srcId": "Donkey_Calf_Raises",
+   "nameEs": "Pantorrilla tipo burro",
+   "aliases": [
+    "pantorrilla en burro",
+    "donkey calf raise",
+    "Donkey Calf Raises"
+   ],
+   "pattern": "pantorrilla",
+   "region": "inferior",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "calves"
+   ],
+   "secondary": [],
+   "cues": [
+    "Cadera bajo el cojín y torso inclinado",
+    "Puntas en el borde y talones libres",
+    "Estira abajo y sube a tope sin rebotar"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Seated_One-Leg_Calf_Raise",
+   "nameEs": "Pantorrilla sentado a una pierna con mancuerna",
+   "aliases": [
+    "pantorrilla sentado con mancuerna",
+    "seated dumbbell calf raise",
+    "Dumbbell Seated One-Leg Calf Raise"
+   ],
+   "pattern": "pantorrilla",
+   "region": "inferior",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "calves"
+   ],
+   "secondary": [],
+   "cues": [
+    "Mancuerna sobre el muslo, cerca de la rodilla",
+    "Punta del pie sobre un step o disco",
+    "Sube a puntas, pausa y baja lento"
+   ]
+  },
+  {
+   "srcId": "Crunches",
+   "nameEs": "Crunch",
+   "aliases": [
+    "crunch abdominal",
+    "abdominales",
+    "crunches"
+   ],
+   "pattern": "core_flexion",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Pega la zona lumbar al piso todo el tiempo",
+    "Enrolla el tronco y despega solo las escápulas",
+    "No jales la cabeza con las manos"
+   ]
+  },
+  {
+   "srcId": "Decline_Crunch",
+   "nameEs": "Crunch declinado",
+   "aliases": [
+    "crunch en banco declinado",
+    "decline crunch"
+   ],
+   "pattern": "core_flexion",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Asegura bien los pies en los rodillos",
+    "Enrolla el tronco, no subas con la espalda recta",
+    "Baja controlado sin dejar caer el torso"
+   ]
+  },
+  {
+   "srcId": "Cable_Crunch",
+   "nameEs": "Crunch en polea",
+   "aliases": [
+    "crunch de rodillas en polea",
+    "crunch con cuerda",
+    "cable crunch"
+   ],
+   "pattern": "core_flexion",
+   "region": "core",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Cuerda junto a la cara y cadera fija, no te sientes",
+    "Flexiona la columna llevando codos a los muslos",
+    "Sube lento resistiendo el peso"
+   ]
+  },
+  {
+   "srcId": "Ab_Crunch_Machine",
+   "nameEs": "Crunch en máquina",
+   "aliases": [
+    "máquina de abdominales",
+    "ab crunch machine"
+   ],
+   "pattern": "core_flexion",
+   "region": "core",
+   "equipment": "maquina",
+   "mechanic": "aislamiento",
+   "level": "intermediate",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ajusta el asiento para flexionar desde el abdomen",
+    "Enrolla el tronco, no jales con los brazos",
+    "Regresa lento sin dejar que choque la pila"
+   ]
+  },
+  {
+   "srcId": "Weighted_Crunches",
+   "nameEs": "Crunch con peso",
+   "aliases": [
+    "crunch con disco",
+    "crunch con balón medicinal",
+    "weighted crunches"
+   ],
+   "pattern": "core_flexion",
+   "region": "core",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Sujeta el disco pegado al pecho",
+    "Despega hombros sin arquear la zona lumbar",
+    "Aumenta la carga solo si controlas el rango"
+   ]
+  },
+  {
+   "srcId": "Sit-Up",
+   "nameEs": "Sit-up",
+   "aliases": [
+    "abdominal completo",
+    "abdominal con pies sujetos",
+    "sit-up"
+   ],
+   "pattern": "core_flexion",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Ancla bien los pies y dobla las rodillas",
+    "Sube enrollando la columna, no de golpe",
+    "No jales del cuello; manos ligeras en la cabeza"
+   ]
+  },
+  {
+   "srcId": "Exercise_Ball_Crunch",
+   "nameEs": "Crunch en balón",
+   "aliases": [
+    "crunch en fitball",
+    "crunch en pelota suiza",
+    "exercise ball crunch"
+   ],
+   "pattern": "core_flexion",
+   "region": "core",
+   "equipment": "otro",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Apoya la zona lumbar sobre el balón",
+    "Deja que el torso se estire atrás y luego enrolla",
+    "Pies firmes y separados para no perder balance"
+   ]
+  },
+  {
+   "srcId": "Jackknife_Sit-Up",
+   "nameEs": "Navajas",
+   "aliases": [
+    "abdominal en V",
+    "V-up",
+    "jackknife sit-up"
+   ],
+   "pattern": "core_flexion",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Sube brazos y piernas a la vez y júntalos arriba",
+    "Piernas casi rectas y lumbar controlada",
+    "Baja lento sin azotar la espalda"
+   ]
+  },
+  {
+   "srcId": "Plank",
+   "nameEs": "Plancha",
+   "aliases": [
+    "plancha frontal",
+    "plancha en antebrazos",
+    "plank"
+   ],
+   "pattern": "core_antiextension",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Codos bajo los hombros y cuerpo en línea recta",
+    "Aprieta glúteos y abdomen, no dejes caer la cadera",
+    "Respira sin soltar la tensión"
+   ]
+  },
+  {
+   "srcId": "Ab_Roller",
+   "nameEs": "Rueda abdominal",
+   "aliases": [
+    "rodillo abdominal",
+    "ab wheel",
+    "ab roller"
+   ],
+   "pattern": "core_antiextension",
+   "region": "core",
+   "equipment": "otro",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Inicia con pelvis en retroversión y glúteo firme",
+    "Avanza solo hasta donde no se arquee la lumbar",
+    "Regresa jalando con el abdomen, no con la cadera"
+   ]
+  },
+  {
+   "srcId": "Barbell_Ab_Rollout_-_On_Knees",
+   "nameEs": "Rollout con barra",
+   "aliases": [
+    "rueda con barra",
+    "rollout de rodillas",
+    "barbell ab rollout"
+   ],
+   "pattern": "core_antiextension",
+   "region": "core",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "expert",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [
+    "lower back",
+    "shoulders"
+   ],
+   "cues": [
+    "Usa discos redondos y poco peso en la barra",
+    "Rueda al frente sin arquear la zona lumbar",
+    "Brazos rectos; regresa contrayendo el abdomen"
+   ]
+  },
+  {
+   "srcId": "Dead_Bug",
+   "nameEs": "Dead bug",
+   "aliases": [
+    "bicho muerto",
+    "insecto muerto",
+    "dead bug"
+   ],
+   "pattern": "core_antiextension",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Pega la lumbar al piso y no la despegues",
+    "Extiende brazo y pierna contrarios a la vez",
+    "Muévete lento y exhala al extender"
+   ]
+  },
+  {
+   "srcId": "Hanging_Leg_Raise",
+   "nameEs": "Elevación de piernas colgado",
+   "aliases": [
+    "elevaciones en barra",
+    "piernas colgado",
+    "hanging leg raise"
+   ],
+   "pattern": "elevacion_piernas",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "expert",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Cuélgate sin balancearte, hombros activos",
+    "Sube las piernas enrollando la pelvis",
+    "Baja lento controlando el balanceo"
+   ]
+  },
+  {
+   "srcId": "Knee_Hip_Raise_On_Parallel_Bars",
+   "nameEs": "Elevación de rodillas en paralelas",
+   "aliases": [
+    "silla del capitán",
+    "elevación de piernas en paralelas",
+    "captain's chair knee raise"
+   ],
+   "pattern": "elevacion_piernas",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Espalda pegada al respaldo y hombros abajo",
+    "Sube rodillas y enrolla la pelvis al final",
+    "Baja controlado sin impulsarte"
+   ]
+  },
+  {
+   "srcId": "Flat_Bench_Lying_Leg_Raise",
+   "nameEs": "Elevación de piernas acostado",
+   "aliases": [
+    "elevación de piernas en banco",
+    "lying leg raise"
+   ],
+   "pattern": "elevacion_piernas",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Manos bajo glúteos o sujetando el banco",
+    "Sube piernas casi rectas hasta 90 grados",
+    "Baja lento sin que se arquee la zona lumbar"
+   ]
+  },
+  {
+   "srcId": "Reverse_Crunch",
+   "nameEs": "Crunch inverso",
+   "aliases": [
+    "crunch invertido",
+    "reverse crunch"
+   ],
+   "pattern": "elevacion_piernas",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Lleva las rodillas al pecho despegando la cadera",
+    "Enrolla la pelvis, no solo subas las piernas",
+    "Baja lento sin azotar la cadera"
+   ]
+  },
+  {
+   "srcId": "Decline_Reverse_Crunch",
+   "nameEs": "Crunch inverso declinado",
+   "aliases": [
+    "elevación de piernas en banco declinado",
+    "decline reverse crunch"
+   ],
+   "pattern": "elevacion_piernas",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Sujétate fuerte de la parte alta del banco",
+    "Enrolla la pelvis hasta despegar la cadera",
+    "Baja lento hasta dejar las piernas casi rectas"
+   ]
+  },
+  {
+   "srcId": "Cable_Reverse_Crunch",
+   "nameEs": "Crunch inverso en polea",
+   "aliases": [
+    "crunch inverso con tobilleras",
+    "cable reverse crunch"
+   ],
+   "pattern": "elevacion_piernas",
+   "region": "core",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Alinea la altura de la polea con tus piernas",
+    "Lleva rodillas al pecho enrollando la pelvis",
+    "Regresa lento sin que el cable te jale"
+   ]
+  },
+  {
+   "srcId": "Seated_Flat_Bench_Leg_Pull-In",
+   "nameEs": "Rodillas al pecho sentado",
+   "aliases": [
+    "recogimientos en banco",
+    "abdominal sentado en banco",
+    "seated leg pull-in"
+   ],
+   "pattern": "elevacion_piernas",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Inclina el torso atrás unos 45 grados",
+    "Junta rodillas y pecho al mismo tiempo",
+    "Extiende las piernas sin tocar el piso"
+   ]
+  },
+  {
+   "srcId": "Exercise_Ball_Pull-In",
+   "nameEs": "Rodillas al pecho en balón",
+   "aliases": [
+    "recogimiento en fitball",
+    "pull-in en pelota",
+    "exercise ball pull-in"
+   ],
+   "pattern": "elevacion_piernas",
+   "region": "core",
+   "equipment": "otro",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Manos bajo los hombros y cuerpo en línea",
+    "Rueda el balón llevando rodillas al pecho",
+    "No dejes caer la cadera al regresar"
+   ]
+  },
+  {
+   "srcId": "Russian_Twist",
+   "nameEs": "Giros rusos",
+   "aliases": [
+    "giro ruso",
+    "giro ruso con disco",
+    "russian twist"
+   ],
+   "pattern": "core_rotacion",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "intermediate",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [
+    "lower back"
+   ],
+   "cues": [
+    "Torso a unos 45 grados con espalda recta",
+    "Gira desde el tronco, no solo muevas los brazos",
+    "Agrega disco cuando controles el rango"
+   ]
+  },
+  {
+   "srcId": "Standing_Cable_Wood_Chop",
+   "nameEs": "Leñador en polea alta",
+   "aliases": [
+    "leñador de arriba abajo",
+    "woodchop",
+    "cable wood chop"
+   ],
+   "pattern": "core_rotacion",
+   "region": "core",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Brazos casi rectos y polea en posición alta",
+    "Gira desde el tronco y pivota el pie de atrás",
+    "Regresa lento resistiendo el cable"
+   ]
+  },
+  {
+   "srcId": "Standing_Cable_Lift",
+   "nameEs": "Leñador en polea baja",
+   "aliases": [
+    "leñador inverso",
+    "leñador de abajo arriba",
+    "cable lift"
+   ],
+   "pattern": "core_rotacion",
+   "region": "core",
+   "equipment": "polea",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Empieza con cadera flexionada y brazos rectos",
+    "Sube en diagonal girando el tronco",
+    "Controla el regreso sin redondear la espalda"
+   ]
+  },
+  {
+   "srcId": "Pallof_Press",
+   "nameEs": "Press Pallof",
+   "aliases": [
+    "antirrotación en polea",
+    "pallof press"
+   ],
+   "pattern": "core_rotacion",
+   "region": "core",
+   "equipment": "polea",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [
+    "chest",
+    "shoulders",
+    "triceps"
+   ],
+   "cues": [
+    "Párate de lado a la polea con abdomen firme",
+    "Extiende los brazos al frente sin girar el torso",
+    "Cadera y hombros siempre viendo al frente"
+   ]
+  },
+  {
+   "srcId": "Landmine_180s",
+   "nameEs": "Rotaciones con barra landmine",
+   "aliases": [
+    "landmine 180",
+    "arcoíris con barra",
+    "landmine 180s"
+   ],
+   "pattern": "core_rotacion",
+   "region": "core",
+   "equipment": "barra",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [
+    "glutes",
+    "lower back",
+    "shoulders"
+   ],
+   "cues": [
+    "Brazos extendidos y abdomen apretado",
+    "Gira tronco y cadera llevando la barra a un lado",
+    "Controla el cambio de lado, sin rebotar"
+   ]
+  },
+  {
+   "srcId": "Air_Bike",
+   "nameEs": "Abdominal bicicleta",
+   "aliases": [
+    "bicicleta",
+    "crunch bicicleta",
+    "bicycle crunch",
+    "air bike"
+   ],
+   "pattern": "core_rotacion",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "compuesto",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Lumbar pegada al piso todo el tiempo",
+    "Lleva codo a rodilla contraria girando el tronco",
+    "Hazlo lento y no jales el cuello"
+   ]
+  },
+  {
+   "srcId": "Alternate_Heel_Touchers",
+   "nameEs": "Toques de talón",
+   "aliases": [
+    "toque de talones",
+    "oblicuos tocando talones",
+    "heel touchers"
+   ],
+   "pattern": "core_rotacion",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Despega un poco los hombros y mantenlos arriba",
+    "Inclínate de lado para tocar cada talón",
+    "Mueve el tronco, no solo estires el brazo"
+   ]
+  },
+  {
+   "srcId": "Dumbbell_Side_Bend",
+   "nameEs": "Inclinaciones laterales con mancuerna",
+   "aliases": [
+    "flexión lateral con mancuerna",
+    "oblicuos con mancuerna",
+    "dumbbell side bend"
+   ],
+   "pattern": "core_rotacion",
+   "region": "core",
+   "equipment": "mancuerna",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [],
+   "cues": [
+    "Mancuerna en una mano y la otra en la cintura",
+    "Inclínate solo de lado, sin girar ni ir al frente",
+    "Sube contrayendo el oblicuo contrario"
+   ]
+  },
+  {
+   "srcId": "Side_Bridge",
+   "nameEs": "Plancha lateral",
+   "aliases": [
+    "puente lateral",
+    "side plank",
+    "side bridge"
+   ],
+   "pattern": "core_rotacion",
+   "region": "core",
+   "equipment": "peso_corporal",
+   "mechanic": "aislamiento",
+   "level": "beginner",
+   "primary": [
+    "abdominals"
+   ],
+   "secondary": [
+    "shoulders"
+   ],
+   "cues": [
+    "Codo bajo el hombro y cuerpo en línea recta",
+    "Empuja la cadera arriba, no la dejes caer",
+    "Aprieta glúteos y no rotes el torso"
+   ]
+  }
+ ],
+ "missing": [
+  "Encogimientos con barra",
+  "Encogimientos con mancuernas",
+  "Encogimientos en Smith",
+  "Encogimientos en máquina",
+  "Elevaciones laterales en máquina",
+  "Elevación lateral en polea por detrás del cuerpo",
+  "Remo al mentón en polea",
+  "Cruces en polea a media altura",
+  "Fondos asistidos en máquina",
+  "Lagartijas con rodillas apoyadas",
+  "Pájaros de pie inclinado con mancuernas",
+  "Elevaciones en Y en banco inclinado",
+  "Face pull con liga",
+  "Jalón al pecho en máquina",
+  "Dominadas asistidas en máquina",
+  "Pullover en máquina",
+  "Remo en polea baja con barra agarre abierto",
+  "Remo foca (seal row)",
+  "Remo Pendlay",
+  "Peso muerto con barra hexagonal",
+  "Peso muerto con mancuernas",
+  "Remo al mentón con barra",
+  "Extensión lumbar en máquina",
+  "Superman",
+  "Curl bayesiano en polea",
+  "Patada de tríceps en polea",
+  "Extensión tras nuca en polea alta con cuerda (de espaldas a la polea)",
+  "Curl martillo con barra romana (multiagarre)",
+  "Curl 21",
+  "Caminata de granjero",
+  "Colgarse de la barra (dead hang)",
+  "Hip thrust en máquina",
+  "Hip thrust en Smith",
+  "Hip thrust con mancuerna",
+  "Hip thrust a una pierna",
+  "Patada de glúteo en máquina",
+  "Abducción de cadera en polea",
+  "Abducción sentado con liga",
+  "Almejas con liga",
+  "Patada lateral acostada",
+  "Curl femoral en polea",
+  "Prensa a una pierna",
+  "Sentadilla péndulo",
+  "Peso muerto rumano a una pierna con mancuerna",
+  "Sentadilla goblet con mancuerna",
+  "Sit-up declinado",
+  "Elevación de rodillas colgado",
+  "Tijeras",
+  "Escaladores",
+  "Limpiaparabrisas",
+  "Inclinaciones laterales en polea baja",
+  "Máquina de rotación de torso",
+  "Posición hueca (hollow hold)",
+  "Plancha con toque de hombro",
+  "Toes to bar",
+  "Bird dog"
+ ]
+}

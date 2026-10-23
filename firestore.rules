@@ -1,0 +1,127 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------- Helpers ----------
+    function signedIn()     { return request.auth != null; }
+    function uid()          { return request.auth.uid; }
+    function userData(id)   { return get(/databases/$(database)/documents/users/$(id)).data; }
+    function isTrainer()    { return signedIn() && userData(uid()).role == 'trainer'; }
+    function isSelf(id)     { return signedIn() && uid() == id; }
+    // trainerId solo lo pone un entrenador al dar de alta y es inmutable.
+    function isTrainerOf(id){ return signedIn() && userData(id).trainerId == uid(); }
+    function canSee(id)     { return isSelf(id) || isTrainerOf(id); }
+    function incoming()     { return request.resource.data; }
+    function changed()      { return incoming().diff(resource.data).affectedKeys(); }
+    function unchanged(ks)  { return !changed().hasAny(ks); }
+    function isStr(v, max)  { return v is string && v.size() <= max; }
+    // Banderas de dolor: el alumno puede agregarlas, pero no quitarlas.
+    function flagsKept() {
+      return !('flags' in resource.data)
+        || ('flags' in incoming() && incoming().flags.keys().hasAll(resource.data.flags.keys()));
+    }
+
+    // ---------- Usuarios ----------
+    match /users/{userId} {
+      allow read: if isSelf(userId) || (signedIn() && resource.data.trainerId == uid());
+
+      // Solo un entrenador da de alta alumnos. Tu doc de entrenador se crea a mano en la consola.
+      allow create: if isTrainer()
+        && incoming().role == 'student'
+        && incoming().trainerId == uid()
+        && incoming().active == true
+        && incoming().keys().hasOnly(['role','trainerId','name','email','active','prefs','notes','createdAt','updatedAt'])
+        && isStr(incoming().name, 80) && isStr(incoming().email, 120);
+
+      // Nadie cambia rol ni entrenador.
+      allow update: if
+        (isSelf(userId) && changed().hasOnly(['name','prefs','updatedAt']))
+        || (isTrainerOf(userId) && changed().hasOnly(['name','active','notes','updatedAt']));
+      allow delete: if false;
+
+      // Estructura de la rutina: solo el entrenador.
+      match /routines/{routineId} {
+        allow read: if canSee(userId);
+        allow create: if isTrainerOf(userId)
+          && incoming().studentId == userId && incoming().trainerId == uid()
+          && incoming().status in ['draft','active','archived'];
+        allow update: if isTrainerOf(userId)
+          && unchanged(['studentId','trainerId'])
+          && incoming().status in ['draft','active','archived'];
+        allow delete: if isTrainerOf(userId) && resource.data.status == 'draft';
+      }
+
+      // Estado vivo: loads (carga/objetivo por slot), recent (últimas 3), flags (dolor), deload.
+      match /progress/{routineId} {
+        allow read: if canSee(userId);
+        allow create: if isTrainerOf(userId)
+          && incoming().studentId == userId && incoming().routineId == routineId;
+        allow update: if unchanged(['studentId','routineId']) && (
+          isTrainerOf(userId)
+          || (isSelf(userId) && changed().hasOnly(['loads','recent','flags','updatedAt']) && flagsKept())
+        );
+        allow delete: if false;
+      }
+
+      // 1 doc por sesión con todas sus series.
+      match /sessions/{sessionId} {
+        allow read: if canSee(userId);
+        allow create: if isSelf(userId)
+          && incoming().studentId == userId
+          && incoming().trainerId == userData(userId).trainerId
+          && incoming().status in ['open','done'];
+        allow update: if
+          (isSelf(userId) && unchanged(['studentId','trainerId','routineId','dayId']))
+          || (isTrainerOf(userId) && changed().hasOnly(['coachNote','updatedAt']));
+        allow delete: if isSelf(userId) && resource.data.status == 'open';
+      }
+
+      // Propuestas del motor. scope 'load' = carga/reps; 'structure' = variante, sustituto, descarga.
+      match /proposals/{proposalId} {
+        allow read: if canSee(userId);
+        allow create: if canSee(userId)
+          && incoming().studentId == userId
+          && incoming().trainerId == userData(userId).trainerId
+          && incoming().status == 'pending'
+          && incoming().scope in ['load','structure'];
+        allow update: if resource.data.status == 'pending'
+          && incoming().status in ['accepted','rejected','superseded']
+          && changed().hasOnly(['status','decidedBy','decidedRole','decidedAt','decisionNote'])
+          && incoming().decidedBy == uid()
+          && (isTrainerOf(userId) || (isSelf(userId) && resource.data.scope == 'load'));
+        allow delete: if false;
+      }
+
+      // Historial: solo agregar.
+      match /changes/{changeId} {
+        allow read: if canSee(userId);
+        allow create: if canSee(userId) && incoming().studentId == userId && incoming().by == uid();
+        allow update, delete: if false;
+      }
+    }
+
+    // Vistas del entrenador sobre todos sus alumnos (collection group).
+    match /{path=**}/proposals/{proposalId} {
+      allow read: if signedIn() && resource.data.trainerId == uid();
+    }
+    match /{path=**}/sessions/{sessionId} {
+      allow read: if signedIn() && resource.data.trainerId == uid();
+    }
+
+    // Plantillas de rutina del entrenador.
+    match /templates/{templateId} {
+      allow read, delete: if signedIn() && resource.data.trainerId == uid();
+      allow update: if signedIn() && resource.data.trainerId == uid() && unchanged(['trainerId']);
+      allow create: if isTrainer() && incoming().trainerId == uid();
+    }
+
+    // Ejercicios propios. Lectura pública (son catálogo, como el repo) para que el QR del PDF
+    // abra la animación sin iniciar sesión.
+    match /exercises/{exerciseId} {
+      allow read: if true;
+      allow create: if isTrainer() && incoming().ownerId == uid();
+      allow update: if signedIn() && resource.data.ownerId == uid() && unchanged(['ownerId']);
+      allow delete: if signedIn() && resource.data.ownerId == uid();
+    }
+  }
+}
