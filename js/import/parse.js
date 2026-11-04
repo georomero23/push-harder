@@ -247,12 +247,14 @@ export function parseRoutine(doc) {
 
       // Encabezado de ejercicio: "01 Press inclinado con mancuernas [3 × 8–10]"
       const h = text.match(HEADER_RE);
-      if (h && Number(h[1]) >= 1 && Number(h[1]) <= 40 && /^[A-Za-zÁÉÍÓÚÑ¿(]/.test(h[2]) && /[a-záéíóúñ]/.test(h[2])) {
+      const isSetsLine = (t) => parseSets(t)?.index === 0; // "4 x 6-8" no es el ejercicio 4 llamado "x 6-8"
+      if (h && Number(h[1]) >= 1 && Number(h[1]) <= 40 && /^[A-Za-zÁÉÍÓÚÑ¿(]/.test(h[2]) && /[a-záéíóúñ]/.test(h[2]) && !isSetsLine(text)) {
         const sets = parseSets(h[2]);
         // Debe aparecer series × reps aquí o antes del siguiente encabezado.
         let ok = !!sets;
         for (let j = i + 1; !ok && j < Math.min(lines.length, i + 7); j++) {
           const t = lines[j].text;
+          if (isSetsLine(t)) { ok = true; break; }
           if (/^\d{1,2}\s*[.)-]?\s*[A-Za-zÁÉÍÓÚÑ¿(]/.test(t) && /[a-záéíóúñ]/.test(t)) break; // el siguiente ejercicio
           if (parseSets(t)) ok = true;
         }
@@ -269,6 +271,22 @@ export function parseRoutine(doc) {
           block = { num: Number(h[1]), name: name.replace(/\s+/g, ' ').trim(), sets: sets || null, rest: null, tech: null, notes: [], alt: '', rir: null, group };
           const rs = parseRest(h[2]);
           if (rs) block.rest = rs;
+          continue;
+        }
+      }
+
+      // Formato simple, sin numerar: "Sentadilla libre 4 x 8-10" / "Press banca: 4x10 (descanso 2 min)"
+      const inl = parseSets(text);
+      if (inl && inl.index >= 4 && (!block || block.sets) && /^[A-ZÁÉÍÓÚÑ]/.test(text) && text.length <= 90) {
+        const name = text.slice(0, inl.index).replace(/[\s\-–—:·|,]+$/, '').trim();
+        if (/[a-záéíóúñ]{3}/.test(name) && !/\b(series?|descanso|rondas?|vueltas?|bloques?|calentamiento|aproximaci|semana|d[ií]a)\b|:/i.test(name)) {
+          closeBlock();
+          noteMode = false;
+          block = { num: day.blocks.length + 1, name: name.replace(/\s+/g, ' '), sets: inl, rest: parseRest(text), tech: null, notes: [], alt: '', rir: null, group };
+          const tail = text.slice(inl.index + inl.raw.length).replace(REST_RE, '').replace(/^[\s,;·()-]+|[\s()]+$/g, '');
+          const tq = parseTechnique(tail);
+          if (tq) block.tech = tq;
+          else if (tail) block.notes.push(tail);
           continue;
         }
       }

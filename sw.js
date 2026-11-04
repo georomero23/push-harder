@@ -9,7 +9,7 @@
  * Si agregas o cambias archivos, corre:  python3 tools/build-sw.py   (actualiza la lista y la versión)
  */
 // @@VERSION
-const VERSION = 'ph-20261104-04ed6bd5';
+const VERSION = 'ph-20261104-2bdf791e';
 // @@END-VERSION
 
 // @@ASSETS
