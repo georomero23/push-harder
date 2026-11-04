@@ -5,7 +5,7 @@
   "description": "Herramientas de desarrollo. La app en sí no necesita Node: es HTML/CSS/JS estático.",
   "scripts": {
     "serve": "python3 -m http.server 8000",
-    "test:rules": "firebase emulators:exec --only firestore --project demo-pushharder \"node --test tests/\"",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-pushharder \"node --test tests/rules.test.js\"",
     "emulators": "firebase emulators:start --only auth,firestore --project demo-pushharder",
     "test:engine": "node --test tests/engine.test.js",
     "build:sw": "python3 tools/build-sw.py"
