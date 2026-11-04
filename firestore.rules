@@ -7,6 +7,30 @@ service cloud.firestore {
     function uid()          { return request.auth.uid; }
     function userData(id)   { return get(/databases/$(database)/documents/users/$(id)).data; }
     function isTrainer()    { return signedIn() && userData(uid()).role == 'trainer'; }
+    // Administrador (Geo): se marca a mano en la consola con admin: true. Nadie se lo puede poner solo.
+    function isAdmin()      { return signedIn() && userData(uid()).admin == true; }
+    function myEmail()      { return request.auth.token.email.lower(); }
+    function invitePath(code) { return /databases/$(database)/documents/invites/$(code); }
+
+    // Alta con enlace de invitación: la persona crea su propio users/{uid} y, en el mismo lote,
+    // suma 1 al contador del enlace. El enlace dice el rol y el entrenador; nadie elige el suyo.
+    function inviteOk(userId) {
+      let code = incoming().invite;
+      let inv = get(invitePath(code)).data;
+      let after = getAfter(invitePath(code)).data;
+      return isSelf(userId)
+        && inv.active == true
+        && inv.uses < inv.maxUses
+        && request.time.toMillis() < inv.expiresAtMs
+        && (inv.email == '' || inv.email == myEmail())
+        && incoming().role == inv.role
+        && (inv.role == 'trainer'
+              ? incoming().trainerId == userId
+              : (incoming().trainerId == inv.trainerId && userData(inv.trainerId).role == 'trainer' && userData(inv.trainerId).active == true))
+        && incoming().email == myEmail()
+        && after.uses == inv.uses + 1
+        && after.lastUsedBy == userId;
+    }
     function isSelf(id)     { return signedIn() && uid() == id; }
     // trainerId solo lo pone un entrenador al dar de alta y es inmutable.
     function isTrainerOf(id){ return signedIn() && userData(id).trainerId == uid(); }
@@ -23,20 +47,25 @@ service cloud.firestore {
 
     // ---------- Usuarios ----------
     match /users/{userId} {
-      allow read: if isSelf(userId) || (signedIn() && resource.data.trainerId == uid());
+      allow read: if isSelf(userId) || (signedIn() && resource.data.trainerId == uid()) || isAdmin();
 
-      // Solo un entrenador da de alta alumnos. Tu doc de entrenador se crea a mano en la consola.
-      allow create: if isTrainer()
-        && incoming().role == 'student'
-        && incoming().trainerId == uid()
+      // Altas: (A) un entrenador da de alta a su alumno (el admin, también para otro entrenador),
+      // (B) el admin da de alta a un entrenador, (C) la persona se une con un enlace de invitación.
+      allow create: if (
+          (isTrainer() && incoming().role == 'student'
+            && (incoming().trainerId == uid() || (isAdmin() && userData(incoming().trainerId).role == 'trainer')))
+          || (isAdmin() && incoming().role == 'trainer' && incoming().trainerId == userId)
+          || inviteOk(userId)
+        )
         && incoming().active == true
-        && incoming().keys().hasOnly(['role','trainerId','name','email','active','prefs','notes','createdAt','updatedAt'])
+        && incoming().keys().hasOnly(['role','trainerId','name','email','active','prefs','notes','createdAt','updatedAt','invite'])
         && isStr(incoming().name, 80) && isStr(incoming().email, 120);
 
-      // Nadie cambia rol ni entrenador.
+      // Nadie cambia rol, entrenador ni admin.
       allow update: if
         (isSelf(userId) && changed().hasOnly(['name','prefs','updatedAt']))
-        || (isTrainerOf(userId) && changed().hasOnly(['name','active','notes','updatedAt']));
+        || (isTrainerOf(userId) && changed().hasOnly(['name','active','notes','updatedAt']))
+        || (isAdmin() && !isSelf(userId) && changed().hasOnly(['name','active','notes','updatedAt']));
       allow delete: if false;
 
       // Estructura de la rutina: solo el entrenador.
@@ -106,6 +135,49 @@ service cloud.firestore {
     }
     match /{path=**}/sessions/{sessionId} {
       allow read: if signedIn() && resource.data.trainerId == uid();
+    }
+
+    // Enlaces de invitación. El código es largo y aleatorio: quien lo tiene ve a quién se une.
+    match /invites/{code} {
+      allow get: if true;
+      allow list: if signedIn() && resource.data.createdBy == uid();
+      allow create: if signedIn()
+        && code.size() >= 10
+        && incoming().keys().hasOnly(['createdBy','trainerId','trainerName','role','name','email','maxUses','uses','active','expiresAtMs','createdAtMs','createdAt'])
+        && incoming().createdBy == uid()
+        && incoming().uses == 0 && incoming().active == true
+        && incoming().maxUses is int && incoming().maxUses >= 1 && incoming().maxUses <= 50
+        && incoming().expiresAtMs is int && incoming().expiresAtMs <= request.time.toMillis() + 31 * 86400000
+        && isStr(incoming().name, 80) && isStr(incoming().email, 120) && isStr(incoming().trainerName, 80)
+        && ((incoming().role == 'student' && isTrainer() && incoming().trainerId == uid())
+            || (incoming().role == 'trainer' && isAdmin() && incoming().trainerId == ''));
+      allow update: if
+        // quien la creó la desactiva
+        (signedIn() && resource.data.createdBy == uid() && changed().hasOnly(['active']) && incoming().active == false)
+        // quien la usa suma 1, en el mismo lote en que crea su users/{uid} con este código
+        || (signedIn() && changed().hasOnly(['uses','lastUsedBy','lastUsedAt'])
+            && incoming().uses == resource.data.uses + 1
+            && incoming().lastUsedBy == uid()
+            && !exists(/databases/$(database)/documents/users/$(uid()))
+            && getAfter(/databases/$(database)/documents/users/$(uid())).data.invite == code);
+      allow delete: if signedIn() && resource.data.createdBy == uid();
+    }
+
+    // Solicitudes de acceso: quien se registra sin enlace pide entrar; solo el admin las ve y decide.
+    match /accessRequests/{reqUid} {
+      allow read: if isSelf(reqUid) || isAdmin();
+      allow create: if isSelf(reqUid)
+        && incoming().keys().hasOnly(['email','name','status','createdAtMs','createdAt'])
+        && incoming().status == 'pending'
+        && incoming().email == myEmail()
+        && isStr(incoming().name, 80)
+        && !exists(/databases/$(database)/documents/users/$(reqUid));
+      allow update: if
+        (isSelf(reqUid) && changed().hasOnly(['name','status','createdAtMs','createdAt'])
+          && incoming().status == 'pending' && isStr(incoming().name, 80))
+        || (isAdmin() && changed().hasOnly(['status','decidedBy','decidedAt'])
+          && incoming().status in ['approved','rejected'] && incoming().decidedBy == uid());
+      allow delete: if isSelf(reqUid) || isAdmin();
     }
 
     // Plantillas de rutina del entrenador.
