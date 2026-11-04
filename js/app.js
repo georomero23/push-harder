@@ -21,6 +21,9 @@ import { StudentDetail } from './views/student.js';
 import { DayPreview } from './views/today.js';
 import { Train } from './views/train.js';
 import { Register } from './views/register.js';
+import { Join, Unlinked } from './views/access.js';
+import { Team } from './views/team.js';
+import { ImportReview } from './views/import.js';
 import { TrainerProposals, History } from './views/proposals.js';
 
 // ---------- Arranque ----------
@@ -58,7 +61,7 @@ async function initFirebase() {
     if (!user) {
       store.set({ authState: 'out', user: null, profile: undefined, custom: [], customFor: null, toast: null });
       // Al cerrar sesión, la siguiente persona entra a Inicio (salvo páginas públicas).
-      if (!/^#\/(ej|catalogo|registro)/.test(location.hash) && location.hash.length > 2) go('/');
+      if (!/^#\/(ej|catalogo|registro|unirme)/.test(location.hash) && location.hash.length > 2) go('/');
       return;
     }
     store.set({ authState: 'in', user, profile: undefined });
@@ -131,6 +134,8 @@ function App() {
     if (p0 === 'ej' && p1) return html`<div class="shell no-tabs"><${ExerciseDetail} id=${p1} /></div>`;
     if (p0 === 'catalogo') return html`<div class="shell no-tabs"><${Catalog} /></div>`;
     if (p0 === 'registro' && configured && authState === 'out') return html`<${Register} />`;
+    // Enlace de invitación: sirve sin sesión y con sesión sin perfil todavía.
+    if (p0 === 'unirme' && p1 && configured && authState !== 'error') return html`<${Join} code=${p1} />`;
   }
 
   if (!configured) {
@@ -147,11 +152,7 @@ function App() {
   if (authState === 'loading') return html`<${Boot} />`;
   if (authState === 'out') return html`<${Login} />`;
   if (profile === undefined) return html`<${Boot} />`;
-  if (profile === null) {
-    return html`<${Notice} title="Tu cuenta no está vinculada" actions=${logoutBtn()}>
-      Entraste bien con <b>${store.get().user?.email}</b>, pero tu cuenta todavía no tiene rol en la app. Si eres alumno, pídele a tu entrenador que te dé de alta con este correo.
-    <//>`;
-  }
+  if (profile === null) return html`<${Unlinked} />`;
   if (profile.active === false) {
     return html`<${Notice} title="Tu acceso está en pausa" actions=${logoutBtn()}>
       Habla con tu entrenador para reactivarlo. Tu historial sigue guardado.
@@ -167,6 +168,9 @@ function App() {
   else if (p0 === 'perfil') view = html`<${Profile} />`;
   else if (p0 === 'historial') view = html`<${History} />`;
   else if (isTrainer && p0 === 'propuestas') view = html`<${TrainerProposals} />`;
+  else if (isTrainer && p0 === 'equipo') view = html`<${Team} />`;
+  else if (isTrainer && p0 === 'importar') { view = html`<${ImportReview} sid=${route.query.get('alumno') || ''} />`; tabs = false; }
+  else if (p0 === 'unirme') view = html`<${Join} code=${p1} />`;
   else if (p0 === 'dia' && p1 && p2) { view = html`<${DayPreview} key=${p2} routineId=${p1} dayId=${p2} />`; tabs = false; }
   else if (p0 === 'entrenar' && p1) { view = html`<${Train} key=${p1} id=${p1} />`; tabs = false; }
   else if (isTrainer && p0 === 'alumnos') view = html`<${Students} />`;

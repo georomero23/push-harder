@@ -275,6 +275,101 @@ export const watchWeekSessions = (sid, week, cb, onError) =>
 export const setRoutineAccent = (sid, rid, pdfAccent) =>
   updateDoc(doc(db, 'users', sid, 'routines', rid), { pdfAccent, updatedAt: stamp() });
 
+// ---------- Altas desde la app: invitaciones, solicitudes y administrador ----------
+const CODE_ABC = 'abcdefghjkmnpqrstuvwxyz23456789'; // sin letras que se confunden
+export function newInviteCode(n = 14) {
+  const bytes = crypto.getRandomValues(new Uint8Array(n));
+  return Array.from(bytes, (b) => CODE_ABC[b % CODE_ABC.length]).join('');
+}
+
+/** Crea un enlace de invitación. Alumno: del coach que lo crea. Coach: solo el admin. */
+export async function createInvite(me, { role = 'student', name = '', email = '', maxUses = 1, days = 7 }) {
+  const code = newInviteCode();
+  const now = Date.now();
+  await setDoc(doc(db, 'invites', code), {
+    createdBy: me.id,
+    trainerId: role === 'student' ? me.id : '',
+    trainerName: String(me.name || '').slice(0, 80),
+    role,
+    name: String(name || '').trim().slice(0, 80),
+    email: String(email || '').trim().toLowerCase().slice(0, 120),
+    maxUses: Math.max(1, Math.min(50, Math.round(maxUses))),
+    uses: 0,
+    active: true,
+    expiresAtMs: now + Math.max(1, Math.min(30, days)) * 86400000,
+    createdAtMs: now,
+    createdAt: stamp(),
+  });
+  return code;
+}
+export const getInvite = async (code) => one(await getDoc(doc(db, 'invites', code)));
+export const watchMyInvites = (uid, cb, onError) =>
+  onSnapshot(query(collection(db, 'invites'), where('createdBy', '==', uid)), (s) => cb(list(s).sort((a, b) => b.createdAtMs - a.createdAtMs)), onError);
+export const deactivateInvite = (code) => updateDoc(doc(db, 'invites', code), { active: false });
+
+/** La persona con sesión iniciada (sin perfil todavía) se une con el código. */
+export async function redeemInvite(code, name) {
+  const user = auth.currentUser;
+  if (!user) throw new Error('Inicia sesión primero');
+  const inv = await getInvite(code);
+  if (!inv) throw new Error('Este enlace no existe');
+  const batch = writeBatch(db);
+  batch.set(doc(db, 'users', user.uid), {
+    role: inv.role,
+    trainerId: inv.role === 'trainer' ? user.uid : inv.trainerId,
+    name: String(name || '').trim().slice(0, 80) || user.email.split('@')[0],
+    email: user.email.toLowerCase(),
+    active: true,
+    prefs: {},
+    notes: '',
+    invite: code,
+    createdAt: stamp(),
+    updatedAt: stamp(),
+  });
+  batch.update(doc(db, 'invites', code), { uses: inv.uses + 1, lastUsedBy: user.uid, lastUsedAt: stamp() });
+  await batch.commit();
+}
+
+export function requestAccess(name) {
+  const user = auth.currentUser;
+  return setDoc(doc(db, 'accessRequests', user.uid), {
+    email: user.email.toLowerCase(), name: String(name || '').trim().slice(0, 80), status: 'pending', createdAtMs: Date.now(), createdAt: stamp(),
+  });
+}
+export const watchMyRequest = (uid, cb, onError) => onSnapshot(doc(db, 'accessRequests', uid), (s) => cb(one(s)), onError);
+export const watchPendingRequests = (cb, onError) =>
+  onSnapshot(query(collection(db, 'accessRequests'), where('status', '==', 'pending')), (s) => cb(list(s).sort((a, b) => a.createdAtMs - b.createdAtMs)), onError);
+
+/** Admin: da el rol a quien pidió acceso (como alumno de un coach o como coach). */
+export async function approveRequest(req, { role, trainerId, name }, me) {
+  const batch = writeBatch(db);
+  batch.set(doc(db, 'users', req.id), {
+    role,
+    trainerId: role === 'trainer' ? req.id : trainerId,
+    name: String(name || req.name || req.email.split('@')[0]).trim().slice(0, 80),
+    email: req.email,
+    active: true,
+    prefs: {},
+    notes: '',
+    createdAt: stamp(),
+    updatedAt: stamp(),
+  });
+  batch.update(doc(db, 'accessRequests', req.id), { status: 'approved', decidedBy: me.id, decidedAt: stamp() });
+  await batch.commit();
+}
+export const rejectRequest = (req, me) => updateDoc(doc(db, 'accessRequests', req.id), { status: 'rejected', decidedBy: me.id, decidedAt: stamp() });
+
+/** Admin: todos los coaches. */
+export const watchTrainers = (cb, onError) =>
+  onSnapshot(query(collection(db, 'users'), where('role', '==', 'trainer')), (s) => cb(list(s)), onError);
+
+/** Lo que el entrenador corrigió al importar PDFs, para reconocerlo solo la próxima vez. */
+export function saveImportAliases(uid, aliases) {
+  const patch = { updatedAt: stamp() };
+  for (const [k, v] of Object.entries(aliases)) patch[`prefs.importAliases.${k.replace(/[.~*/\[\]]/g, ' ').slice(0, 120)}`] = v;
+  return updateDoc(doc(db, 'users', uid), patch);
+}
+
 // ---------- Fase 5: sincronización ----------
 /** Se resuelve cuando todo lo que se guardó sin señal ya llegó al servidor. */
 export const syncPending = () => waitForPendingWrites(db);

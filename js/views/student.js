@@ -58,8 +58,11 @@ export function StudentDetail({ sid }) {
             <button class="btn" disabled=${busy} onClick=${() => window.confirm('¿Archivar esta rutina? El historial se conserva.') && run(() => fb.setRoutineStatus(sid, active.id, 'archived'), 'Rutina archivada')}><${Icon} name="archive" />Archivar</button>
           </div>
           <button class="btn btn-block mt" onClick=${() => setExporting(true)}><${Icon} name="download" />Exportar PDF</button>
-        </div>` : html`<div class="card empty"><b>Sin rutina asignada</b>Asígnale una plantilla o arma una desde cero.</div>`}
-      <button class="btn btn-primary btn-block mt" onClick=${() => setAssigning(true)}><${Icon} name="plus" />${active ? 'Asignar otra rutina' : 'Asignar rutina'}</button>
+        </div>` : html`<div class="card empty"><b>Sin rutina asignada</b>Asígnale una plantilla, arma una desde cero o súbela desde tu PDF.</div>`}
+      <div class="two mt">
+        <button class="btn btn-primary" onClick=${() => setAssigning(true)}><${Icon} name="plus" />${active ? 'Asignar otra' : 'Asignar rutina'}</button>
+        <button class="btn" onClick=${() => go(`/importar?alumno=${sid}`)}><${Icon} name="upload" />Desde PDF</button>
+      </div>
 
       <${StudentProposals} sid=${sid} title="Propuestas pendientes" />
 
@@ -141,6 +144,10 @@ function AssignSheet({ open, onClose, sid, me, activeIds, accent }) {
       <button class="row" disabled=${busy} onClick=${() => assign(null)}>
         <span class="grow"><div class="title">En blanco</div><div class="subtitle">Armarla solo para este alumno</div></span>
         <${Icon} name="plus" />
+      </button>
+      <button class="row" disabled=${busy} onClick=${() => { onClose(); go(`/importar?alumno=${sid}`); }}>
+        <span class="grow"><div class="title">Desde un PDF</div><div class="subtitle">Sube tu rutina y la app acomoda los ejercicios</div></span>
+        <${Icon} name="upload" />
       </button>
     </div>`}
   <//>`;

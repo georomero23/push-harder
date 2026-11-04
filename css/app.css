@@ -605,3 +605,60 @@ button.row { cursor: pointer; }
   animation: fade .25s ease;
 }
 @media (min-width: 640px) { .update-bar { left: 50%; right: auto; width: 420px; transform: translateX(-50%); } }
+
+/* =====================================================================
+   Altas desde la app (enlaces, equipo) e importar rutina desde PDF
+   ===================================================================== */
+.linkbox { padding: 12px 14px; border-radius: 12px; border: 1px dashed var(--line-2); background: var(--bg-2); font-size: 13px; word-break: break-all; color: var(--mora-hi); }
+.linkbox code { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+button.plain { background: none; border: 0; padding: 0; text-align: left; color: inherit; font: inherit; }
+.tile .ico { position: relative; }
+.tile-badge {
+  position: absolute; top: -6px; right: -8px; min-width: 20px; height: 20px; padding: 0 6px; border-radius: 99px;
+  display: grid; place-items: center; font-style: normal; font-size: 11px; font-weight: 900;
+  background: var(--bad); color: #fff; box-shadow: 0 0 0 3px var(--surface);
+}
+
+.dropzone {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; cursor: pointer;
+  padding: 30px 18px 24px; border-radius: var(--r-lg); border: 1.5px dashed rgba(204, 144, 221, .45);
+  background: radial-gradient(120% 90% at 50% 0%, var(--mora-soft), transparent 70%), var(--surface);
+  transition: border-color .2s, transform .2s var(--ease);
+}
+.dropzone.over { border-color: var(--mora-hi); transform: scale(1.01); }
+.dropzone b { font-size: 18px; margin-top: 8px; }
+.dropzone .muted { font-size: 14px; }
+.dz-ico { width: 60px; height: 60px; border-radius: 18px; display: grid; place-items: center; background: var(--mora); color: #fff; box-shadow: 0 10px 28px var(--mora-glow); }
+.dz-ico svg { width: 28px; height: 28px; }
+.import-how h3 { margin: 0 0 10px; font-size: 16px; }
+.import-how ol { margin: 0; padding-left: 20px; display: grid; gap: 8px; font-size: 14px; color: var(--muted); }
+.import-how li b { color: var(--text); }
+.import-reading { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; padding: 36px 16px; }
+.import-reading .spinner { width: 34px; height: 34px; }
+.import-reading .muted { font-size: 13px; word-break: break-all; }
+
+.import-summary { background: linear-gradient(135deg, rgba(87, 35, 100, .55), var(--surface) 70%); border-color: rgba(204, 144, 221, .28); }
+.import-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 10px; }
+.import-stats span { display: flex; flex-direction: column; font-size: 12.5px; color: var(--muted); }
+.import-stats b { font-family: var(--display); font-weight: 400; font-size: 30px; line-height: 1.05; color: var(--text); }
+.import-stats .warn b { color: var(--warn); }
+.import-stats .ok b { color: var(--ok); }
+.txt-warn { color: var(--warn); }
+.import-day .section-title { align-items: center; }
+.import-day .section-title h2 { color: var(--text); font-size: 14px; }
+.import-day .section-title h2 .faint { color: var(--muted); font-weight: 700; letter-spacing: .06em; }
+.import-note { margin: -4px 2px 12px; font-size: 13px; color: var(--muted); line-height: 1.5; white-space: pre-line; }
+.slot.imp-warn .slot-main { border-color: rgba(243, 181, 76, .45); background: linear-gradient(90deg, rgba(243, 181, 76, .07), var(--surface) 60%); }
+.slot.imp-bad .slot-main { border-color: rgba(240, 107, 107, .5); background: linear-gradient(90deg, rgba(240, 107, 107, .08), var(--surface) 60%); }
+.slot-warn.bad { color: var(--bad); }
+.slot-ok { display: flex; gap: 5px; align-items: center; font-size: 12px; color: var(--ok); margin-top: 4px; }
+.slot-match { display: block; font-size: 12.5px; color: var(--mora-hi); margin-top: 2px; }
+.thumb-q { display: grid; place-items: center; aspect-ratio: 3 / 2; background: var(--surface-2); color: var(--faint); font-family: var(--display); font-size: 22px; }
+.import-src { padding: 12px 14px; border-radius: 14px; background: var(--bg-2); border: 1px solid var(--line); }
+.import-src .quote { font-weight: 700; font-size: 16px; margin-top: 2px; }
+.lvl { display: inline-block; margin-top: 6px; padding: 3px 8px; border-radius: 8px; font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.lvl-alta, .lvl-ok { color: var(--ok); background: rgba(92, 214, 155, .1); }
+.lvl-media { color: var(--warn); background: rgba(243, 181, 76, .12); }
+.lvl-baja { color: var(--bad); background: rgba(240, 107, 107, .12); }
+.import-read { display: grid; gap: 8px; padding: 12px 14px; border-radius: 14px; background: var(--bg-2); border: 1px solid var(--line); font-size: 14px; }
+.import-read span { display: block; font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 1px; }

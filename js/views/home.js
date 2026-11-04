@@ -1,13 +1,14 @@
 import { html } from '../lib/deps.js';
+import { useWatch } from '../lib/hooks.js';
 import { useStore } from '../lib/store.js';
 import { go } from '../lib/router.js';
 import { Icon, OfflineBanner } from '../lib/ui.js';
 import { MyTraining } from './today.js';
 import { InstallCard } from './offline.js';
 
-function Tile({ icon, title, sub, to, soon }) {
+function Tile({ icon, title, sub, to, soon, badge }) {
   return html`<button class=${`tile ${soon ? 'soon' : ''}`} onClick=${() => !soon && go(to)} disabled=${soon}>
-    <span class="ico"><${Icon} name=${icon} /></span>
+    <span class="ico"><${Icon} name=${icon} />${badge ? html`<i class="tile-badge">${badge}</i>` : null}</span>
     <span><b>${title}</b><br /><small>${sub}</small></span>
   </button>`;
 }
@@ -37,6 +38,8 @@ export function Home() {
         <${Tile} icon="plus" title="Ejercicio propio" sub="Con tu GIF o video" to="/ejercicio/nuevo" />
         <${Tile} icon="calendar" title="Rutinas" sub="Plantillas" to="/rutinas" />
         <${Tile} icon="trend" title="Propuestas" sub="Revisar y aprobar" to="/propuestas" />
+        <${Tile} icon="file" title="Importar PDF" sub="Tu rutina en automático" to="/importar" />
+        ${profile.admin && html`<${AdminTile} />`}
       </div>
       <${MyTraining} showEmpty=${false} />
     ` : html`
@@ -48,4 +51,10 @@ export function Home() {
       </div>
     `}
   </div>`;
+}
+
+function AdminTile() {
+  const reqs = useWatch((fb, ok, fail) => fb.watchPendingRequests(ok, fail), []);
+  const n = (reqs.data || []).length;
+  return html`<${Tile} icon="shield" title="Equipo" sub=${n ? `${n} por aprobar` : 'Coaches y accesos'} to="/equipo" badge=${n || null} />`;
 }

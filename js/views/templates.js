@@ -13,14 +13,20 @@ export function Templates() {
 
   return html`<div>
     <${Topbar} title="Rutinas" sub="Plantillas para asignar"
-      actions=${html`<button class="icon-btn" aria-label="Nueva plantilla" onClick=${() => go('/plantilla/nueva')}><${Icon} name="plus" /></button>`} />
+      actions=${html`<div class="row-gap">
+        <button class="icon-btn" aria-label="Importar desde PDF" onClick=${() => go('/importar')}><${Icon} name="upload" /></button>
+        <button class="icon-btn" aria-label="Nueva plantilla" onClick=${() => go('/plantilla/nueva')}><${Icon} name="plus" /></button>
+      </div>`} />
     <div class="page">
       <${OfflineBanner} />
       ${tpls.loading ? html`<${Spinner} />` : list.length === 0 ? html`
         <div class="card empty">
           <b>Arma tu primera plantilla</b>
           Crea la rutina una vez y asígnala a varios alumnos. Cada quien progresa con sus propias cargas.
-          <div class="mt"><button class="btn btn-primary" onClick=${() => go('/plantilla/nueva')}><${Icon} name="plus" />Nueva plantilla</button></div>
+          <div class="mt row-gap" style="justify-content:center;flex-wrap:wrap">
+            <button class="btn btn-primary" onClick=${() => go('/plantilla/nueva')}><${Icon} name="plus" />Nueva plantilla</button>
+            <button class="btn" onClick=${() => go('/importar')}><${Icon} name="upload" />Desde PDF</button>
+          </div>
         </div>` : html`
         <div class="list">
           ${list.map((t) => html`<button class="row" key=${t.id} onClick=${() => go(`/plantilla/${t.id}`)}>

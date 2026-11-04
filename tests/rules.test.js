@@ -78,7 +78,7 @@ test('solo un entrenador da de alta alumnos, y como suyos', async () => {
   await assertSucceeds(setDoc(doc(as(GEO), 'users', 'emily'), nuevo));
   await assertFails(setDoc(doc(as(JULI), 'users', 'emily2'), nuevo));
   await assertFails(setDoc(doc(as(X), 'users', X), { ...nuevo, role: 'trainer', trainerId: X }));
-  await assertFails(setDoc(doc(as(GEO), 'users', 'emily3'), { ...nuevo, trainerId: OTRO }));
+  await assertFails(setDoc(doc(as(OTRO), 'users', 'emily3'), { ...nuevo, trainerId: GEO })); // (el admin sí puede; ver abajo)
   await assertFails(setDoc(doc(as(GEO), 'users', 'emily4'), { ...nuevo, role: 'trainer' }));
 });
 

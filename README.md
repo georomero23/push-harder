@@ -23,6 +23,7 @@ js/lib/                 catálogo, rutinas, sesiones, estado, router, componente
 js/engine/              motor de progresión puro (reglas R1–R6, guardia, incrementos) · ver js/engine/README.md
 js/views/               pantallas (editor de rutinas, modo entrenamiento, fichas…)
 js/pdf/                 PDF Historia 9:16: layout.js (puro), export.js (navegador), metrics.js
+js/import/              leer PDFs de rutina (pdf.js): lines → parse → match (catálogo) → draft
 data/catalog.json       297 ejercicios base (generado)
 media/ex/<id>/          2 cuadros WebP + miniaturas por ejercicio (generado)
 media/custom/           animaciones de tus ejercicios propios
@@ -47,6 +48,7 @@ tests/engine.test.js    pruebas del motor (sin instalar nada: node --test tests/
 3. ✅ Registro y motor de progresión
 4. ✅ Exportar a PDF (formato Historia 9:16)
 5. ✅ PWA instalable y sin señal
+6. ✅ Altas desde la app (enlaces de invitación, solicitudes, equipo) e importar rutinas desde PDF
 
 ## Créditos
 

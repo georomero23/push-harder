@@ -64,8 +64,9 @@ No hace falta crear índices: todas las consultas de la app usan los índices au
 | `name` | string | `Geo Romero` |
 | `email` | string | tu correo |
 | `active` | boolean | `true` |
+| `admin` | boolean | `true` (solo tú: te deja dar de alta coaches y aprobar solicitudes) |
 
-Esta es la única vez que se toca la base de datos a mano. A tus alumnos los das de alta desde la app.
+Esta es la única vez que se toca la base de datos a mano. Todo lo demás se hace desde la app (sección 11 bis).
 
 ## 6. Restringir la API key a tus dominios (recomendado)
 
@@ -142,6 +143,21 @@ En la ficha del alumno: **Exportar PDF** → elige su color → **Generar PDF** 
 - El PDF es formato Historia 9:16, con texto real (seleccionable), miniatura de cada ejercicio y un QR que abre su animación.
 - **Genera los PDFs para alumnos desde tu página de GitHub Pages**, no desde `localhost`: los QR apuntan a la dirección desde donde exportas.
 - Lo que escribes en "Nota del entrenador" de cada día y en "Alternativa" de cada ejercicio sale en el PDF. Si dejas la alternativa vacía, la app sugiere dos variantes del mismo patrón.
+
+## 11 bis. Altas desde la app y cargar rutinas desde PDF
+
+**Alumnos (cualquier coach):** Alumnos → **+** → **Invitar con enlace** → *Crear enlace* → mándalo por WhatsApp. La persona lo abre, crea su contraseña (o entra con la que ya tenía) y queda como tu alumno. El enlace sirve para 1, 10 o 50 personas y vence en 1, 7 o 30 días; puedes desactivarlo en *Enlaces activos*. Si pones un correo, solo esa persona lo puede usar.
+
+**Coaches (solo el admin):** Inicio → **Equipo** → *Invitar coach con enlace*. En Equipo también:
+- **Solicitudes de acceso**: quien se registra sin enlace ve "Tu cuenta todavía no está vinculada" y puede pedir acceso; aquí le das acceso como alumno (de cualquier coach) o como coach, o lo rechazas.
+- **Pausar / reactivar** coaches.
+
+**Cargar rutina desde PDF:** en la ficha del alumno → **Desde PDF** (o Inicio → *Importar PDF*, o en Rutinas el ícono de subir).
+1. Eliges el PDF. Los que exporta la app se cargan exactos (llevan la rutina adentro). Los tuyos estilo PushHarder se leen: días, ejercicios, series × reps, descansos, técnicas, alternativas y notas.
+2. Cada ejercicio se busca en el catálogo para ponerle su animación. Los dudosos quedan en amarillo: tócalos y confirma (**Sí, es este**) o elige otro. Lo que corriges se aprende para el próximo PDF.
+3. Eliges para quién es (o solo plantilla) y guardas. Si el alumno tenía rutina activa, se archiva con su historial. Se abre el editor para poner las cargas iniciales.
+
+Los PDF escaneados o en foto no tienen texto: esos no se pueden leer.
 
 ## 12. Instalar la app en el celular (y usarla sin señal)
 

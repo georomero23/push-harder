@@ -400,6 +400,27 @@ function progressionPage(ctx) {
  * @param {string} [o.accent]      color del alumno (#572364 por defecto)
  * @param {Date}   [o.date]
  */
+/** Rutina → "PHR1:" + base64(JSON) (solo la estructura: sin cargas ni datos del alumno). */
+export function embedRoutine(routine) {
+  const data = {
+    v: 1,
+    name: routine.name || '', goal: routine.goal || '', notes: routine.notes || '',
+    days: (routine.days || []).map((d) => ({
+      name: d.name, focus: d.focus || '', notes: d.notes || '',
+      slots: d.slots.map((s) => ({
+        exId: s.exId, src: s.src || 'base', exName: s.exName, sets: s.sets, repMin: s.repMin, repMax: s.repMax,
+        restSec: s.restSec, rir: s.rir, technique: s.technique || { type: 'none', applyTo: 'last', detail: '' },
+        ssGroup: s.ssGroup || null, incrementKg: s.incrementKg ?? null, notes: s.notes || '', alt: s.alt || '',
+      })),
+    })),
+  };
+  const json = JSON.stringify(data);
+  const b64 = typeof btoa === 'function'
+    ? btoa(unescape(encodeURIComponent(json)))
+    : Buffer.from(json, 'utf8').toString('base64');
+  return `PHR1:${b64}`;
+}
+
 export function buildDoc({ routine, studentName, exIndex, catalog = [], thumbs, qrBase, accent = '#572364', date = new Date() }) {
   const accentText = readableAccent(accent);
   const all = routine.days.flatMap((d) => d.slots);
@@ -420,7 +441,8 @@ export function buildDoc({ routine, studentName, exIndex, catalog = [], thumbs, 
   return {
     pageSize: PAGE,
     pageMargins: [M, 128, M, 64],
-    info: { title: `${routine.name} · ${studentName || ''}`.trim(), author: 'PUSH HARDER · Personal training', creator: 'PUSH HARDER App' },
+    // keywords lleva la rutina completa (PHR1) para importarla exacta en otra cuenta o alumno.
+    info: { title: `${routine.name} · ${studentName || ''}`.trim(), author: 'PUSH HARDER · Personal training', creator: 'PUSH HARDER App', keywords: embedRoutine(routine) },
     defaultStyle: { font: 'Archivo', fontSize: 19, color: C.text, lineHeight: 1.15 },
     background: () => ({ canvas: [{ type: 'rect', x: 0, y: 0, w: PAGE.width, h: PAGE.height, color: C.bg }] }),
     header: (page, count) => ({

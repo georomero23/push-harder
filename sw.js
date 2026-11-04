@@ -9,7 +9,7 @@
  * Si agregas o cambias archivos, corre:  python3 tools/build-sw.py   (actualiza la lista y la versión)
  */
 // @@VERSION
-const VERSION = 'ph-20261023-fa1e3b13';
+const VERSION = 'ph-20261104-04ed6bd5';
 // @@END-VERSION
 
 // @@ASSETS
@@ -32,6 +32,11 @@ const ASSETS = [
   "js/engine/progression.js",
   "js/engine/volume.js",
   "js/firebase.js",
+  "js/import/draft.js",
+  "js/import/lines.js",
+  "js/import/match.js",
+  "js/import/parse.js",
+  "js/import/pdf.js",
   "js/lib/catalog.js",
   "js/lib/deps.js",
   "js/lib/hooks.js",
@@ -46,11 +51,13 @@ const ASSETS = [
   "js/pdf/layout.js",
   "js/pdf/metrics.js",
   "js/version.js",
+  "js/views/access.js",
   "js/views/catalog.js",
   "js/views/custom-exercise.js",
   "js/views/exercise.js",
   "js/views/export.js",
   "js/views/home.js",
+  "js/views/import.js",
   "js/views/login.js",
   "js/views/offline.js",
   "js/views/picker.js",
@@ -60,6 +67,7 @@ const ASSETS = [
   "js/views/routine-editor.js",
   "js/views/student.js",
   "js/views/students.js",
+  "js/views/team.js",
   "js/views/templates.js",
   "js/views/today.js",
   "js/views/train.js",
