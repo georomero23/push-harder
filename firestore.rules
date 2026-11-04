@@ -173,8 +173,11 @@ service cloud.firestore {
         && isStr(incoming().name, 80)
         && !exists(/databases/$(database)/documents/users/$(reqUid));
       allow update: if
-        (isSelf(reqUid) && changed().hasOnly(['name','status','createdAtMs','createdAt'])
-          && incoming().status == 'pending' && isStr(incoming().name, 80))
+        // volver a pedir (p. ej. tras un rechazo): se borra la decisión anterior y queda pendiente
+        (isSelf(reqUid) && changed().hasOnly(['name','status','createdAtMs','createdAt','decidedBy','decidedAt'])
+          && incoming().keys().hasOnly(['email','name','status','createdAtMs','createdAt'])
+          && incoming().status == 'pending' && isStr(incoming().name, 80)
+          && !exists(/databases/$(database)/documents/users/$(reqUid)))
         || (isAdmin() && changed().hasOnly(['status','decidedBy','decidedAt'])
           && incoming().status in ['approved','rejected'] && incoming().decidedBy == uid());
       allow delete: if isSelf(reqUid) || isAdmin();

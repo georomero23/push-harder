@@ -297,3 +297,13 @@ test('solicitudes: la persona pide acceso; solo el admin las ve y decide', async
   await assertSucceeds(updateDoc(doc(as(GEO), 'accessRequests', X), { status: 'approved', decidedBy: GEO, decidedAt: new Date() }));
   await assertFails(updateDoc(doc(as(X, 'x@x.mx'), 'accessRequests', X), { status: 'approved' }));
 });
+
+test('solicitudes: tras un rechazo se puede volver a pedir, sin tocar la decisión', async () => {
+  await assertSucceeds(setDoc(doc(as('nuevo', 'nuevo@x.mx'), 'accessRequests', 'nuevo'), { email: 'nuevo@x.mx', name: 'Nuevo', status: 'pending', createdAtMs: 1 }));
+  await assertSucceeds(updateDoc(doc(as(GEO), 'accessRequests', 'nuevo'), { status: 'rejected', decidedBy: GEO, decidedAt: new Date() }));
+  const me = as('nuevo', 'nuevo@x.mx');
+  await assertFails(setDoc(doc(me, 'accessRequests', 'nuevo'), { email: 'nuevo@x.mx', name: 'Nuevo', status: 'pending', createdAtMs: 2, decidedBy: 'nuevo' }));
+  await assertSucceeds(setDoc(doc(me, 'accessRequests', 'nuevo'), { email: 'nuevo@x.mx', name: 'Nuevo otra vez', status: 'pending', createdAtMs: 2 }));
+  // con perfil ya creado no tiene caso volver a pedir
+  await assertFails(setDoc(doc(as(JULI, 'j@x.mx'), 'accessRequests', JULI), { email: 'j@x.mx', name: 'J', status: 'pending', createdAtMs: 3 }));
+});
